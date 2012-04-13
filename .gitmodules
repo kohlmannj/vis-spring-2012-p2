@@ -1,0 +1,3 @@
+[submodule "docs"]
+	path = docs
+	url = https://kohlmannj@bitbucket.org/kohlmannj/vis-p2-docs.git
