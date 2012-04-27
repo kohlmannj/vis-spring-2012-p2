@@ -1,3 +1,12 @@
 [submodule "docs"]
 	path = docs
 	url = https://kohlmannj@bitbucket.org/kohlmannj/vis-p2-docs.git
+[submodule "js/libs/polymaps"]
+	path = js/libs/polymaps
+	url = https://github.com/simplegeo/polymaps.git
+[submodule "js/libs/d3"]
+	path = js/libs/d3
+	url = https://github.com/mbostock/d3.git
+[submodule "polymaps_d3_demo"]
+	path = polymaps_d3_demo
+	url = git://gist.github.com/899670.git

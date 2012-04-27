@@ -46,22 +46,41 @@
 
   <!-- JavaScript at the bottom for fast page loading -->
 
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-
-  <!-- scripts concatenated and minified via build script -->
-  <script src="js/plugins.js"></script>
-  <script src="js/script.js"></script>
-  <!-- end scripts -->
-
-  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
-       mathiasbynens.be/notes/async-analytics-snippet -->
   <script>
-    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
+    Modernizr.load([
+      // Don't need jQuery yet, so don't load it.
+      /*{
+        // Load jQuery
+        load: '//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js',
+        complete: function () {
+          if ( !window.jQuery ) {
+            Modernizr.load('js/libs/jquery-1.7.2.min.js');
+          }
+        }
+      },*/
+      {
+        // Load D3
+        load: '//mbostock.github.com/d3/d3.js',
+        complete: function () {
+          if ( !window.d3 ) {
+            Modernizr.load('js/libs/d3/d3.v2.min.js');
+          }
+        }
+      },
+      {
+        // Load Polymaps
+        load: '//polymaps.org/polymaps.min.js',
+        complete: function () {
+          if ( !window.org.polymaps ) {
+            Modernizr.load('js/libs/polymaps/polymaps.min.js');
+          }
+        }
+      },
+      'js/script.js'
+    ]);
   </script>
+  
+  <!-- end scripts -->
+  
 </body>
 </html>
