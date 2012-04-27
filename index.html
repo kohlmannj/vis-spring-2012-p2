@@ -48,8 +48,7 @@
 
   <script>
     Modernizr.load([
-      // Don't need jQuery yet, so don't load it.
-      /*{
+      {
         // Load jQuery
         load: '//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js',
         complete: function () {
@@ -57,7 +56,7 @@
             Modernizr.load('js/libs/jquery-1.7.2.min.js');
           }
         }
-      },*/
+      },
       {
         // Load D3
         load: '//mbostock.github.com/d3/d3.js',
@@ -71,7 +70,7 @@
         // Load Polymaps
         load: '//polymaps.org/polymaps.min.js',
         complete: function () {
-          if ( !window.org.polymaps ) {
+          if ( !window.org || !window.org.polymaps ) {
             Modernizr.load('js/libs/polymaps/polymaps.min.js');
           }
         }
