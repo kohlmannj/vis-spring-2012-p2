@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../js/libs/modernizr-2.5.3.min.js"></script>
+    <style type="text/css">
+html, body {
+  height: 100%;
+  background: #E6E6E6;
+  margin: 0;
+  font: 10px sans-serif;
+}
+
+svg {
+  display: block;
+}
+
+circle {
+  stroke: black;
+  fill: brown;
+  fill-opacity: .5;
+}
+
+#map {
+  width: 960px;
+  height: 500px;
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      Modernizr.load([
+        {
+          // Load D3
+          load: '//mbostock.github.com/d3/d3.js',
+          complete: function () {
+            if ( !window.d3 ) {
+              Modernizr.load('../js/libs/d3/d3.v2.min.js');
+            }
+          }
+        },
+        {
+          // Load Polymaps
+          load: '//polymaps.org/polymaps.min.js',
+          complete: function () {
+            if ( !window.org || !window.org.polymaps ) {
+              Modernizr.load('../js/libs/polymaps/polymaps.min.js');
+            }
+          }
+        },
+        'script.js'
+      ]);
+    </script>
+  </body>
+</html>

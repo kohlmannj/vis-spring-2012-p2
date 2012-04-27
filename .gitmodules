@@ -7,6 +7,3 @@
 [submodule "js/libs/d3"]
 	path = js/libs/d3
 	url = https://github.com/mbostock/d3.git
-[submodule "polymaps_d3_demo"]
-	path = polymaps_d3_demo
-	url = git://gist.github.com/899670.git
