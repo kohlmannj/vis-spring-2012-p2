@@ -22,8 +22,6 @@
 
   <link rel="stylesheet" href="css/style.css">
 
-  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
-
   <!-- All JavaScript at the bottom, except this Modernizr build.
        Modernizr enables HTML5 elements & feature detects for optimal performance.
        Create your own custom Modernizr build: www.modernizr.com/download/ -->
@@ -34,29 +32,30 @@
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <header>
-
+    <h1>Vis Project 2: Electric Boogaloo</h1>
   </header>
-  <div role="main">
-
+  
+  <div id="content">
+    <!-- Do things! -->
   </div>
+  
   <footer>
-
+    By Joe Kohlmann and Mitch Schwartz for <a href="http://madisoncommons.org/">Madison Commons</a>.
   </footer>
-
 
   <!-- JavaScript at the bottom for fast page loading -->
 
   <script>
     Modernizr.load([
-      {
-        // Load jQuery
-        load: '//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js',
-        complete: function () {
-          if ( !window.jQuery ) {
-            Modernizr.load('js/libs/jquery-1.7.2.min.js');
-          }
-        }
-      },
+      // {
+      //   // Load jQuery
+      //   load: '//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js',
+      //   complete: function () {
+      //     if ( !window.jQuery ) {
+      //       Modernizr.load('js/libs/jquery-1.7.2.min.js');
+      //     }
+      //   }
+      // },
       {
         // Load D3
         load: '//mbostock.github.com/d3/d3.js',

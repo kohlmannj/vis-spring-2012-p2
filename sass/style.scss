@@ -2,5 +2,17 @@
 @include h5bp-helpers;
 @include h5bp-chromeframe;
 @include h5bp-media;
+@import "compass/reset";
 
+// header, footer {
+//     height: 5%;
+// }
 
+header, footer {
+    display: none;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+}
