@@ -35,7 +35,12 @@
     <h1>Vis Project 2: Electric Boogaloo</h1>
   </header>
   
-  <div id="content">
+  <div id="ui">
+    <a class="big button" id="myLocation" href="#"><span>My Location</span></a>
+    <!-- User Interface -->
+  </div>
+  
+  <div id="map">
     <!-- Do things! -->
   </div>
   
@@ -65,15 +70,17 @@
           }
         }
       },
-      {
-        // Load Polymaps
-        load: '//polymaps.org/polymaps.min.js',
-        complete: function () {
-          if ( !window.org || !window.org.polymaps ) {
-            Modernizr.load('js/libs/polymaps/polymaps.min.js');
-          }
-        }
-      },
+      // {
+      //   // Load Polymaps
+      //   load: '//polymaps.org/polymaps.min.js',
+      //   complete: function () {
+      //     if ( !window.org || !window.org.polymaps ) {
+      //       Modernizr.load('js/libs/polymaps/polymaps.min.js');
+      //     }
+      //   }
+      // },
+      'js/libs/polymaps/polymaps.js',
+      'js/libs/polymaps/examples/kml/kml.js',
       'js/script.js'
     ]);
   </script>

@@ -3,7 +3,8 @@ var po = org.polymaps;
 // Create the map object, add it to #map…
 var map = po.map()
     .container(d3.select("#map").append("svg:svg").node())
-    .zoom(8)
+    .zoom(12)
+    .center( {lon: -89.40853026500001, lat: 43.0695419255} )
     .add(po.interact());
 
 // Add the CloudMade image tiles as a base layer…

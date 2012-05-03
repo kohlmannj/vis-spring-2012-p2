@@ -1,18 +1,112 @@
+@import url("http://polymaps.org/style.css");
+
 @import "h5bp";
 @include h5bp-helpers;
 @include h5bp-chromeframe;
 @include h5bp-media;
 @import "compass/reset";
+@import "compass/css3";
 
 // header, footer {
 //     height: 5%;
 // }
 
+body {
+    font: 16px "Helvetica Neue", Helvetica, Arial, "Bitstream Vera Sans", sans-serif;
+}
+
 header, footer {
     display: none;
 }
 
-#content {
+div#map {
     width: 100%;
     height: 100%;
+}
+
+#ui {
+    display: none;
+    width: 100%;
+    font-size: 14px;
+    position: fixed;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.65);
+    top: 0;
+    left: 0;
+    height: 90px;
+    padding-bottom: 10px;
+    background-image: -o-linear-gradient(-90deg, #FFFFFF 0%, rgba(255,255,255,0.65) 35%, rgba(254,254,254,0.54) 90%, rgba(0,0,0,0.25) 90%, rgba(0,0,0,0.00) 100%);
+    background-image: -moz-linear-gradient(-90deg, #FFFFFF 0%, rgba(255,255,255,0.65) 35%, rgba(254,254,254,0.54) 90%, rgba(0,0,0,0.25) 90%, rgba(0,0,0,0.00) 100%);
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, rgba(255,255,255,0.65) 35%, rgba(254,254,254,0.54) 90%, rgba(0,0,0,0.25) 90%, rgba(0,0,0,0.00) 100%);
+    background-image: -ms-linear-gradient(-90deg, #FFFFFF 0%, rgba(255,255,255,0.65) 35%, rgba(254,254,254,0.54) 90%, rgba(0,0,0,0.25) 90%, rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(-90deg, #FFFFFF 0%, rgba(255,255,255,0.65) 35%, rgba(254,254,254,0.54) 90%, rgba(0,0,0,0.25) 90%, rgba(0,0,0,0.00) 100%);
+    overflow: hidden;
+    
+    
+    .button {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;
+        background-image: -o-linear-gradient(-90deg, #FFFFFF 0%, #F3F3F3 15%, #CCCCCC 100%);
+        background-image: -moz-linear-gradient(-90deg, #FFFFFF 0%, #F3F3F3 15%, #CCCCCC 100%);
+        background-image: -webkit-linear-gradient(-90deg, #FFFFFF 0%, #F3F3F3 15%, #CCCCCC 100%);
+        background-image: -ms-linear-gradient(-90deg, #FFFFFF 0%, #F3F3F3 15%, #CCCCCC 100%);
+        background-image: linear-gradient(-90deg, #FFFFFF 0%, #F3F3F3 15%, #CCCCCC 100%);
+        border: 1px solid #666666;
+        line-height: 32px;
+        
+        &:active {
+            color: #000;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+            background-image: -o-linear-gradient(-90deg, #B3B3B3 0%, #CCCCCC 15%, #999999 100%);
+            background-image: -moz-linear-gradient(-90deg, #B3B3B3 0%, #CCCCCC 15%, #999999 100%);
+            background-image: -webkit-linear-gradient(-90deg, #B3B3B3 0%, #CCCCCC 15%, #999999 100%);
+            background-image: -ms-linear-gradient(-90deg, #B3B3B3 0%, #CCCCCC 15%, #999999 100%);
+            background-image: linear-gradient(-90deg, #B3B3B3 0%, #CCCCCC 15%, #999999 100%);
+        }
+        
+        .on {
+            color: #fff;
+            text-shadow: 0 1px 1px rgba(0,0,0,0.35);
+            background-image: -o-linear-gradient(-90deg, #4A9EFF 0%, #2C80F3 15%, #1A1B9F 100%);
+            background-image: -moz-linear-gradient(-90deg, #4A9EFF 0%, #2C80F3 15%, #1A1B9F 100%);
+            background-image: -webkit-linear-gradient(-90deg, #4A9EFF 0%, #2C80F3 15%, #1A1B9F 100%);
+            background-image: -ms-linear-gradient(-90deg, #4A9EFF 0%, #2C80F3 15%, #1A1B9F 100%);
+            background-image: linear-gradient(-90deg, #4A9EFF 0%, #2C80F3 15%, #1A1B9F 100%);
+        }
+    }
+    
+    .big {
+        height: 100%;
+        width: 100px;
+        border: 0;
+        border-right: 1px solid #666;
+        
+        span {
+            display: inline-block;
+            background-position: center top;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 32px;
+            padding-top: 90px - 32px;
+        }
+    }
+    
+    #myLocation span {
+        background-image: image-url("location.png");
+    }
+}
+
+.layer circle {
+  fill: #fff;
+  fill-opacity: .5;
+  stroke: #1f77b4;
+  stroke-width: 1.5px;
+}
+
+.layer path {
+  fill: none;
+  stroke: #1f77b4;
+  stroke-width: 2px;
 }
