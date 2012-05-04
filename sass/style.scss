@@ -110,3 +110,13 @@ div#map {
   stroke: #1f77b4;
   stroke-width: 2px;
 }
+
+.layer path.Polygon {
+  fill: #ff0000;
+  stroke-width: 0;
+  opacity: 0.35;
+}
+
+.layer path.Polygon:hover {
+    opacity: 0.5;
+}

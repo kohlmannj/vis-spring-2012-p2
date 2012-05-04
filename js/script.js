@@ -14,10 +14,42 @@ map.add(po.image()
     + "/998/256/{Z}/{X}/{Y}.png")
     .hosts(["a.", "b.", "c.", ""])));
 
-map.add(po.kml()
-    .url("data/madison_neighborhoods_14613.kml")
-    .tile(false)
-    .on("load", load));
+// map.add(po.kml()
+//     .url("data/madison_neighborhoods_14613.kml")
+//     .tile(false)
+//     .on("load", load));
+
+
+var locations, locations_kml;
+var initialized = false;
+
+d3.xml("data?src=kml", function(xml) {
+    locations_kml = xml;
+    init();
+});
+d3.xml("data?src=locations", function(xml) {
+    locations = xml;
+    init();
+});
+
+var groups = [];
+
+var init = function() {
+    if (locations == undefined || locations_kml == undefined || initialized) {
+        return;
+    }
+    
+    var placemarks = locations_kml.getElementsByTagName("Placemark");
+    // console.log(d3.select(locations).selectAll("loc parent")[0]);
+    for (var i = 0; i < placemarks.length; i++) {
+        var parentLoc = d3.select(locations).select("loc[index=" + placemarks[i].parentindex + "]");
+        console.log("Parent Index: " + placemarks[i].getAttribute("parentindex"));
+    }
+    
+    initialized = true;
+}
+
+// Add D3 layer.
 
 map.add(po.compass()
     .pan("none"));
@@ -28,5 +60,8 @@ function load(e) {
     f.element.appendChild(po.svg("title").appendChild(
         document.createTextNode(p.name + ": " + p.description))
         .parentNode);
+    d3.select(f.element).on("mouseover", function() {
+        console.log("");
+    });
   }
 }

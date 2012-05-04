@@ -306,3 +306,15 @@ div#map {
   stroke: #1f77b4;
   stroke-width: 2px;
 }
+
+/* line 114, ../sass/style.scss */
+.layer path.Polygon {
+  fill: #ff0000;
+  stroke-width: 0;
+  opacity: 0.35;
+}
+
+/* line 120, ../sass/style.scss */
+.layer path.Polygon:hover {
+  opacity: 0.5;
+}
