@@ -9,7 +9,7 @@ var map = po.map()
 
 // Add the CloudMade image tiles as a base layer…
 map.add(po.image()
-    .url(po.url("http://{S}tile.cloudmade.com"
+    .url(po.url("https://{S}tile.cloudmade.com"
     + "/c36eb13cd9ed4855af9ae010a968c1a7" // http://cloudmade.com/register
     + "/998/256/{Z}/{X}/{Y}.png")
     .hosts(["a.", "b.", "c.", ""])));

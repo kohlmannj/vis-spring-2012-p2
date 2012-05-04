@@ -52,33 +52,7 @@
 
   <script>
     Modernizr.load([
-      // {
-      //   // Load jQuery
-      //   load: '//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js',
-      //   complete: function () {
-      //     if ( !window.jQuery ) {
-      //       Modernizr.load('js/libs/jquery-1.7.2.min.js');
-      //     }
-      //   }
-      // },
-      {
-        // Load D3
-        load: '//mbostock.github.com/d3/d3.js',
-        complete: function () {
-          if ( !window.d3 ) {
-            Modernizr.load('js/libs/d3/d3.v2.min.js');
-          }
-        }
-      },
-      // {
-      //   // Load Polymaps
-      //   load: '//polymaps.org/polymaps.min.js',
-      //   complete: function () {
-      //     if ( !window.org || !window.org.polymaps ) {
-      //       Modernizr.load('js/libs/polymaps/polymaps.min.js');
-      //     }
-      //   }
-      // },
+      'js/libs/d3/d3.v2.min.js',
       'js/libs/polymaps/polymaps.js',
       'js/libs/polymaps/examples/kml/kml.js',
       'js/script.js'
