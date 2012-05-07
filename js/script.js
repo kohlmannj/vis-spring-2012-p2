@@ -2,7 +2,7 @@ var po = org.polymaps;
 
 // Create the map object, add it to #map…
 var map = po.map()
-    .container(d3.select("#map").append("svg:svg").node())
+    .container(d3.select("#content").append("svg:svg").node())
     .zoom(12)
     .center( {lon: -89.40853026500001, lat: 43.0695419255} )
     .add(po.interact());
@@ -14,10 +14,26 @@ map.add(po.image()
     + "/998/256/{Z}/{X}/{Y}.png")
     .hosts(["a.", "b.", "c.", ""])));
 
-map.add(po.kml()
-    .url("data/madison_neighborhoods_14613.kml")
-    .tile(false)
-    .on("load", load));
+// Load the locations XML file
+
+// map.add(po.kml()
+//     .url("data/?src=locations&by=kml")
+//     .tile(false)
+//     .on("load", load));
+
+d3.xml("data/?src=locations&by=kml", function(xmlResult) {
+    var layer = d3.select("#content svg").insert("svg:g", ".compass").attr("id", "locations");
+    
+    var folders = d3.select(xmlResult).selectAll("Folder")[0];
+    var group = layer.selectAll("g").data(folders)
+        .enter().append("g");
+    console.log(group);
+    // d3.select("#map").append
+    
+    var addDescription = function(d) {
+        return d.attr("description");
+    }
+});
 
 map.add(po.compass()
     .pan("none"));
