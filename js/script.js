@@ -25,14 +25,39 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
     var layer = d3.select("#content svg").insert("svg:g", ".compass").attr("id", "locations");
     
     var folders = d3.select(xmlResult).selectAll("Folder")[0];
-    var group = layer.selectAll("g").data(folders)
-        .enter().append("g");
-    console.log(group);
-    // d3.select("#map").append
     
-    var addDescription = function(d) {
-        return d.attr("description");
-    }
+    var addLocindexasID = function(d, i) {
+        console.log("loc" + d3.select(d).attr("index")); return "loc" + d3.select(d).attr("index");
+    };
+    
+    var group = layer.selectAll("g").data(folders)
+        .enter().append("g").attr("id", addLocindexasID);
+    
+    // group.append("svg:circle").attr("r", 4.5);
+    
+    var loc = group.selectAll("g").data(function(d) {
+        var selection = d3.select(d).select("Placemark")[0];
+        return selection;
+    }).enter().append("g").each(function(d) {
+        console.log(d3.select(d).attr("index"), d3.select(d).select("name")[0]);
+    });
+    
+    // d3.select(d).selectAll("Placemark")
+    
+    // .attr("transform", function(d) {
+    //     var coordinates = d3.select(d);
+    //     console.log(coordinates);
+    //     return "0";
+    // });
+    
+    loc.append("svg:circle").attr("r", 4.5);
+    
+    // map.on("move", function() {
+    //     layer.selectAll("g").attr("transform", function(d) {
+    //         d = map.locationPoint({lon: d.value[0], lat: d.value[1]});
+    //         return "translate(" + d.x + "," + d.y + ")";
+    //     });
+    // });
 });
 
 map.add(po.compass()
