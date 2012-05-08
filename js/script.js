@@ -84,24 +84,25 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
     
     var folders = d3.select(xmlResult).selectAll("Folder")[0];
     
-    var addLocindexasID = function(d, i) {
-        return "loc" + d3.select(d).attr("index");
-    };
+    // var addLocindexasID = function(d, i) {
+    //     return "loc" + d3.select(d).attr("index");
+    // };
     
     var group = layer.selectAll("g").data(folders)
-        .enter().append("g").attr("id", addLocindexasID);
+        .enter().append("g");
     
     // group.append("svg:circle").attr("r", 4.5);
     
     var loc = group.selectAll("g").data(function(d) {
-        var selection = d3.select(d).select("Placemark")[0];
+        var selection = d3.select(d).selectAll("Placemark")[0];
+        console.log(selection);
         return selection;
     }).enter().append("g").each(function(d) {
         // console.log(d3.select(d).attr("index"), d3.select(d).select("name")[0]);
     }).attr("r", 4.5).attr("transform", function(d, i) {
         // Find the centroid of all the coordinates.
         var coordinates = kmlGeoJson(d);
-        console.log(coordinates);
+        // console.log(coordinates);
         
         d.centroid = {
             lon: 0,
@@ -129,15 +130,16 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
         d.centroid.lon = d.centroid.lon / coordinates.length;
         d.centroid.lat = d.centroid.lat / coordinates.length;
         
-        console.log(d.centroid);
+        // console.log(d.centroid);
         
         d = map.locationPoint(d.centroid);
         return "translate(" + d.x + "," + d.y + ")";
-    }).attr("id", addLocindexasID).attr("title", function(d, i) {
+    }).attr("title", function(d, i) {
+        console.log(d3.select(d).attr("id") + ": " + d3.select(d).select("name").text());
         return d3.select(d).select("name").text();
     });
     
-    loc.append("svg:circle").attr("r", 12);
+    loc.append("svg:circle").attr("r", 6);
     
     // d3.select(d).selectAll("Placemark")
     
