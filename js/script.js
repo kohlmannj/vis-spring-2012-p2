@@ -69,15 +69,14 @@ var map = po.map()
 map.add(po.image()
     .url(po.url("http://{S}tile.cloudmade.com"
     + "/c36eb13cd9ed4855af9ae010a968c1a7" // http://cloudmade.com/register
-    + "/998/256/{Z}/{X}/{Y}.png")
+    + "/33481/256/{Z}/{X}/{Y}.png")
     .hosts(["a.", "b.", "c.", ""])));
 
 // Load the locations XML file
 
 // map.add(po.kml()
 //     .url("data/?src=locations&by=kml")
-//     .tile(false)
-//     .on("load", load));
+//     .tile(false));
 
 d3.xml("data/?src=locations&by=kml", function(xmlResult) {
     var layer = d3.select("#content svg").insert("svg:g", ".compass").attr("id", "locations");
