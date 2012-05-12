@@ -12,7 +12,7 @@ var map = po.map()
 map.add(po.image()
     .url(po.url("http://{S}tile.cloudmade.com"
     + "/c36eb13cd9ed4855af9ae010a968c1a7" // http://cloudmade.com/register
-    + "/33481/256/{Z}/{X}/{Y}.png")
+    + "/33481" + ( (window.devicePixelRatio && window.devicePixelRatio == 2) ? "@2x" : "" ) + "/256/{Z}/{X}/{Y}.png")
     .hosts(["a.", "b.", "c.", ""]))
     .zoom(function(z) {
         var dz = Math.log(window.devicePixelRatio || 1) / Math.LN2;
