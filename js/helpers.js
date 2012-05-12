@@ -95,3 +95,33 @@ function calcFolderCentroid(d,i) {
     }
     d.centroid = getCentroidFromCoordinates([coordinates]);
 }
+
+function getLocationJson(xml) {
+    var folders = d3.select(xml).selectAll("Folder")[0];
+
+    var json = {};
+
+    var folderCoordinates = [];
+    for(var i = 0; i < folders.length; i++) {
+        var folder = folders[i];
+
+        calcFolderCentroid(folder);
+
+        var props = {
+            name: d3.select(folder).select("name").text(),
+            id: d3.select(folder).attr("id")
+        };
+        
+        json[ props.name ] = getJsonPoint(folder.centroid, props);
+    }
+
+    return json;
+
+    function getJsonPoint(point, props) {
+        return [
+            point.lon,
+            point.lat,
+            props.name
+        ];
+    }
+}
