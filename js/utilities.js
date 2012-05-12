@@ -125,3 +125,44 @@ function getLocationJson(xml) {
         ];
     }
 }
+
+function getLocationGeoJson(xml) {
+    var folders = d3.select(xml).selectAll("Folder")[0];
+
+    var geoJson = {
+        type: "FeatureCollection",
+        features: []
+    };
+
+    var folderCoordinates = [];
+    for(var i = 0; i < folders.length; i++) {
+        var folder = folders[i];
+
+        calcFolderCentroid(folder);
+
+        var props = {
+            name: d3.select(folder).select("name").text(),
+            id: d3.select(folder).attr("id")
+        };
+
+        geoJson.features.push( getGeoJsonPoint(folder.centroid, props) );
+    }
+
+    return geoJson;
+
+    function getGeoJsonPoint(point, props) {
+        return {
+            type: "Feature",
+            geometry: {
+                type: "Point",
+                coordinates: [point.lon, point.lat]
+            },
+            properties: props
+        };
+    }
+}
+
+// Adjust the inial zoom level based on window width.
+function WidthZoom() {
+    map.zoom(Math.ceil(12 + Math.log(window.innerWidth / 960) - 1/4 * Math.log(960 / window.innerWidth)));
+}
