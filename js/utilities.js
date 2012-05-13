@@ -1,5 +1,20 @@
-// KML coordinate code adapted from Polymaps/examples/kml/kml.js
+Array.prototype.unique = function () {
+    var r = new Array();
+    o:for(var i = 0, n = this.length; i < n; i++)
+    {
+        for(var x = 0, y = r.length; x < y; x++)
+        {
+            if(r[x]==this[i])
+            {
+                continue o;
+            }
+        }
+        r[r.length] = this[i];
+    }
+    return r;
+}
 
+// KML coordinate code adapted from Polymaps/examples/kml/kml.js
 function kmlCoordinates(kml) {
     var po = org.polymaps;
     
@@ -81,9 +96,15 @@ function getCentroidFromCoordinates(coordinates) {
     return centroid;
 }
 
-function translateCentroid(d) {
+function transformCentroid(d) {
     d = map.locationPoint(d.centroid);
-    return "translate(" + d.x + "," + d.y + ")";
+    
+    var scale = 1.0;
+    if (map.zoom() > 12) {
+        scale = (Math.pow(2, map.zoom()) * 256) / (Math.pow(2, 12) * 256);
+    }
+    
+    return "translate(" + d.x + "," + d.y + ") scale(" + scale + ")";
 }
 
 function calcFolderCentroid(d,i) {
@@ -92,6 +113,7 @@ function calcFolderCentroid(d,i) {
     for (var i = 0; i < placemarks.length; i++) {
         getCentroid(placemarks[i]);
         coordinates.push( [placemarks[i].centroid.lon, placemarks[i].centroid.lat] );
+        locationCoordinates[d3.select(placemarks[i]).attr("id")] = placemarks[i].centroid;
     }
     d.centroid = getCentroidFromCoordinates([coordinates]);
 }
