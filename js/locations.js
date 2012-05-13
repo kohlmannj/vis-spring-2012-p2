@@ -102,10 +102,26 @@
 //     return layer;
 // }
 
+// red = food
+// blue = education
+// green = environment
+// purple = city
+// orange = transportation (bc orange shows up a lot in Google Maps)
+// yellow = other
+
+var tagColors = {
+    134: "rgb(152,78,163)",
+    137: "rgb(77,175,74)",
+    145: "rgb(55,126,184)",
+    150: "rgb(255,127,0)",
+    182: "rgb(228,26,28)",
+    default: "rgb(255,221,51)"
+};
+
 d3.xml("data/?src=locations&by=kml", function(xmlResult) {
     
     d3.json("data/?src=stories&by=location&as=json", function(json) {
-        console.log(json.children);
+        console.log(json);
         var layer = d3.select("#content svg")
             .insert("svg:g", ".compass")
             .attr("id", "locations")
@@ -146,15 +162,51 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
         
         // Process story nodes.
         var nodes = [];
-        
+        var links = [];
         for (var i = 0; i < json.children.length; i++) {
             var loc = json.children[i];
             
             for (var j = 0; j < loc.children.length; j++) {
                 var child = loc.children[j];
-                console.log(child.nid + " -> locationCoordinates[" + loc.index + "]");
+                // console.log(child.nid + " -> locationCoordinates[" + loc.index + "]");
                 child.locCenter = locationCoordinates[loc.index];
                 nodes.push(child);
+                
+                child.mostPopularTag = { index: -1, name: null, count: -1 };
+                child.secondMostPopularTag = { index: -1, name: null, count: -1 };
+                
+                for (var k = 0; k < child.tags.length; k++) {
+                    var locTag = loc.tags[child.tags[k]];
+                    // console.log(locTag.index, locTag.name, locTag.count);
+                    if (locTag && locTag.count) {
+                        if (locTag.count > child.mostPopularTag.count) {
+                            child.secondMostPopularTag = child.mostPopularTag;
+                            child.mostPopularTag = locTag;
+                        } else if (locTag.count > child.secondMostPopularTag.count) {
+                            child.secondMostPopularTag = locTag;
+                        }
+                    }
+                }
+                
+                if ( ! tagColors.hasOwnProperty(child.mostPopularTag.index) ) {
+                    child.mostPopularTag = {
+                        index: "default",
+                        name: null,
+                        count: -1,
+                        realTag: child.mostPopularTag
+                    };
+                }
+                
+                if ( ! tagColors.hasOwnProperty(child.secondMostPopularTag.index) ) {
+                    child.secondMostPopularTag = {
+                        index: "default",
+                        name: null,
+                        count: -1,
+                        realTag: child.secondMostPopularTag
+                    };
+                }
+                
+                // console.log(child);
             }
         }
         
@@ -167,9 +219,9 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
         
         force = d3.layout.force()
             .nodes(nodes)
-            .links([])
+            .links(links)
             .size([window.innerWidth, window.innerHeight])
-            .charge(-12)
+            .charge(-16)
             // .gravity(0)
             .start();
         
@@ -177,12 +229,41 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
             .data(nodes)
             .enter().append("svg:circle")
             .attr("class", "node")
-            .attr("r", "0.5em")
+            .attr("r", "0.65em")
             .attr("cx", function(d, i) { return d.x; })
             .attr("cy", function(d, i) { return d.y; })
-            .style("fill", function(d, i) { return fill(i & 3); })
-            .style("stroke", function(d, i) { return d3.rgb(fill(i & 3)).darker(2); })
-            .call(force.drag);
+            .style("fill", function(d, i) { return tagColors[d.mostPopularTag.index]; })
+            .style("stroke", function(d, i) { return tagColors[d.secondMostPopularTag.index]; })
+            .style("opacity", 0.85)
+            .on("mouseover", function(d,i) {
+                if (!movePopover) return;
+                popoverCounter++;
+                clearTimeout(popoverHide);
+                // console.log("enter", popoverCounter);
+                d3.select("#popover").classed("shown", true);
+                d3.select("#popover").style("border", "2px solid " + tagColors[d.secondMostPopularTag.index]).style("background", tagColors[d.mostPopularTag.index]);
+                if (d.mostPopularTag.index == "default") {
+                    d3.select("#popover").style("color", "#111");
+                } else {
+                    d3.select("#popover").style("color", "");
+                }
+                // document.getElementById("popover").className = "shown";
+                // document.getElementById("popover").style.borderColor = tagColors[d.mostPopularTag.index];
+            })
+            .on("mouseout", function(d,i) {
+                if (!movePopover) return;
+                popoverCounter--;
+                console.log("exit", popoverCounter);
+                if (popoverCounter <= 0) {
+                    // document.getElementById("popover").style.borderColor = "#000";
+                    popoverHide = window.setTimeout(function() {
+                        d3.select("#popover").style("border", "").style("background", "").style("color", "").classed("shown", false);
+                    }, 500);
+                }
+            })
+            .on("click", function(d,i) {
+                movePopover = !movePopover;
+            });
         
         vis.style("opacity", 1e-6)
             .transition()
@@ -193,11 +274,11 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
             // Push different nodes in different directions for clustering.
             var centerPoint = map.locationPoint(mapCenter);
             // var focusPoint = map.locationPoint();
-            var k = .085 * e.alpha;
+            var k = .0825 * e.alpha * map.zoom() / 13 * 1.1;
             nodes.forEach(function(o, i) {
                 var locCenterCoord = map.locationPoint(o.locCenter);
-                o.y += (locCenterCoord.y - window.innerHeight / 2) * k;
-                o.x += (locCenterCoord.x - window.innerWidth / 2) * k;
+                o.y += (locCenterCoord.y - centerPoint.y) * k;
+                o.x += (locCenterCoord.x - centerPoint.x) * k;
             });
             node.attr("cx", function(d) { return d.x; })
                 .attr("cy", function(d) { return d.y; });

@@ -22,6 +22,38 @@ map.add(po.image()
 map.add(po.compass()
     .pan("none"));
 
+var popoverCounter = 0;
+
+var movePopover = true;
+
+var altPopoverAnchor = null;
+
+popoverHide = window.setTimeout(function() {
+    d3.select("#popover").style("border", "").style("background", "").style("color", "").classed("shown", false);
+}, 500);
+
+d3.select("body").on("mousemove", function() {
+    var position = d3.mouse(this);
+    if (altPopoverAnchor) {
+        console.log( d3.select(altPopoverAnchor) );
+    }
+    // console.log(d3.mouse(this));
+    // d3.select("#popover").style("-webkit-transform", );
+    var left = (position[0] + 6);
+    if (left > window.innerWidth - 284) {
+        left = window.innerWidth - 284;
+    }
+    
+    var top = (position[1] + 12);
+    if (top > window.innerHeight - 164) {
+        top = window.innerHeight - 164;
+    }
+    
+    if (movePopover) {
+        d3.select("#popover").style("left", left + "px").style("top", top + "px");
+    }
+});
+
 // map.add(po.kml()
 //     .url("data/?src=locations&by=kml")
 //     .tile(false));

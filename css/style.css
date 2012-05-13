@@ -293,28 +293,69 @@ div#map {
 }
 
 /* line 101, ../sass/style.scss */
-.layer circle {
-  fill: #fff;
-  fill-opacity: .5;
-  stroke: #1f77b4;
-  stroke-width: 1.5px;
+circle {
+  stroke-width: 2px;
 }
 
-/* line 108, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .layer path {
   fill: none;
   stroke: #1f77b4;
   stroke-width: 2px;
 }
 
-/* line 114, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .layer path.Polygon {
   fill: #ff0000;
   stroke-width: 0;
   opacity: 0.35;
 }
 
-/* line 120, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 .layer path.Polygon:hover {
   opacity: 0.5;
+}
+
+/* line 122, ../sass/style.scss */
+#popover {
+  background: #333;
+  border: 2px solid;
+  border-color: #000;
+  color: #eee;
+  width: 256px;
+  height: 128px;
+  padding: 4px 8px;
+  position: absolute;
+  left: 8px;
+  top: 16px;
+  z-index: 2;
+  opacity: 0;
+  -webkit-transition-property: opacity, background, border-color, color;
+  -moz-transition-property: opacity, background, border-color, color;
+  -ms-transition-property: opacity, background, border-color, color;
+  -o-transition-property: opacity, background, border-color, color;
+  transition-property: opacity background border-color color;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -ms-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.35);
+}
+
+/* line 142, ../sass/style.scss */
+#popover.shown {
+  opacity: 1;
 }
