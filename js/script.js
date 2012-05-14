@@ -71,9 +71,4 @@ d3.select("#showCredits").on("click", function() {
 //     .url("data/?src=locations&by=kml")
 //     .tile(false));
 
-// map.add( locations("data/?src=locations&by=kml") );
-
-// stories( "data/?src=stories" );
-
-// WidthZoom();
-
+// The good stuff is in locations.js

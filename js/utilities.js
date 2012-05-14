@@ -210,3 +210,33 @@ function resetPopover() {
     
     popoverCounter = 0;
 }
+
+function nodeLinkDistance(d,i) {
+    var totalNumLinks = d.source.numLinks + d.target.numLinks;
+    if (totalNumLinks < 5) {
+        return 12;
+    } else if (totalNumLinks < 10) {
+        return 24;
+    } else if (totalNumLinks < 20) {
+        return 32;
+    } else if (totalNumLinks < 40) {
+        return 48;
+    } else {
+        return 54;
+    }
+}
+// red = food
+// blue = education
+// green = environment
+// purple = city
+// orange = transportation (bc orange shows up a lot in Google Maps)
+// yellow = other
+
+tagColors = {
+    134: "rgb(152,78,163)",
+    137: "rgb(77,175,74)",
+    145: "rgb(55,126,184)",
+    150: "rgb(255,127,0)",
+    182: "rgb(228,26,28)",
+    default: "rgb(255,221,51)"
+};

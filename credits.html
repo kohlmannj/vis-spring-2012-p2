@@ -24,24 +24,25 @@
   <style type="text/css" media="screen">
     #container {
         max-width: 640px;
-        line-height: 18px;
+        line-height: 20px;
         margin: 0 auto;
-        padding: 18px;
+        padding: 20px;
     }
     
     h1 {
         font-size: 36px;
-        line-height: 54px;
+        line-height: 60px;
         font-weight: bold;
-        margin-bottom: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         text-align: center;
     }
     
     h2 {
         font-size: 24px;
-        line-height: 36px;
-        margin-top: 18px;
-        margin-bottom: 9px;
+        line-height: 40px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
     
     img {
@@ -53,9 +54,37 @@
         font-weight: bold;
     }
     
-    p, p+p {
-        margin-top: 9px;
+    p + p, ul + p {
+        margin-top: 20px;
         text-indent: 0;
+    }
+    
+    ul {
+        margin-top: 20px;
+        list-style: disc;
+        margin-left: 20px;
+    }
+    
+    li + li {
+        margin-top: 10px;
+    }
+    
+    header {
+        margin-bottom: 20px;
+    }
+    
+    header h1 {
+        margin-top: 0;
+    }
+    
+    header p {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    em {
+        background: #ffffcc;
+        font-style: italic;
     }
   </style>
 </head>
@@ -65,19 +94,23 @@
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <div id="container">
   <header>
-      <h1>Madison Commons Article Explorer (Prototype)</h1>
+      <h1>Madison Commons Article Explorer</h1>
+      <p>A Project by Joe Kohlmann &amp; Mitch Schwartz</p>
+      <p>CS 638/838 Visualization, University of Wisconsin&ndash;Madison</p>
+      <p>14 May 2012</p>
   </header>
   
   <section>
       <img src="img/explorer.png" alt="A screenshot of the Madison Commons Article Explorer over the city of Madison. Multi-colored circles overlaid on the map represent articles in the Madison Commons database.">
       <h2>About</h2>
-      <p>The Madison Commons Article Explorer (Prototype) allows <a href="http://madisoncommons.org/">Madison Commons</a> readers to explore the world of community events, issues and activities through a beautiful geographical visualization. Each circle on the map represents an article, <strong>colored according to which regional topics</strong> it pertains to. Readers can explore the rich local content of Madison Commons literally without losing their place in the world.</p>
+      <p>The Madison Commons Article Explorer allows <a href="http://madisoncommons.org/">Madison Commons</a> readers to explore the world of community events, issues and activities through a beautiful geographical visualization. Each circle on the map represents an article, <strong>colored according to which regional topics</strong> it pertains to. Readers can explore the rich local content of Madison Commons literally without losing their place in the world.</p>
       <h2>Instructions</h2>
       <ul>
-          <li><strong>Movement</strong>: <strong>Click and drag</strong> on the map to pan around the visualization.</li>
-          <li><strong>Zooming</strong>: Use the <strong>(+) and (-) buttons</strong> in the upper left corner or <strong>double-click</strong> on the map.</li>
-          <li><strong>Explore Articles</strong>: <strong>Hover over an article</strong> to display its title, an excerpt and its tagged topics.</li>
-          <li><strong>Read Articles</strong>: <strong>Click on an article</strong> to read it without leaving the visualization. Use the <strong>Close</strong> button in the upper-left to continue exploring.</li>
+          <li><strong>Movement</strong>: <em>Click and drag</em> on the map to pan around the visualization.</li>
+          <li><strong>Zooming</strong>: Use the <em>(+) and (-) buttons</em> in the upper left or <em>double-click</em> on the map.</li>
+          <li><strong>Explore Articles</strong>: <em>Hover over an article</em> to display its title, an excerpt and its metadata.</li>
+          <li><strong>Read Articles</strong>: <em>Click on an article</em> to read it without leaving the visualization.</li>
+          <li><strong>Continue Exploring</strong>: <em>Click the Close button</em> in the upper-left to return to the map.</li>
       </ul>
   </section>
   
@@ -88,19 +121,24 @@
           <li><strong>Joe Kohlmann</strong>: Implementation, Data Mangling</li>
           <li><strong>Mitch Schwartz</strong>: Write-Up, Data Wrangling</li>
       </ul>
-      <h2>Data</h2>
+      <h2>Data Sources</h2>
       <p>The data used in this visualization was retrieved on April 24, 2012 from <a href="http://madisoncommons.org/">Madison Commons</a>. This includes the <a href="http://data.mapchannels.com/mc4/14613/madison_neighborhoods_14613.htm?v=20111219084553">Madison Neighborhoods KML map</a> seen on the site, which Article Explorer uses to position articles on the map.</p>
       <h2>Third-Party Frameworks</h2>
       <ul>
           <li><a href="http://d3js.org/">D3.js</a>: Data-Driven Documents Framework, Force-Directed Graph Implementation</li>
           <li><a href="http://polymaps.org/">Polymaps</a>: Interactive Map Framework</li>
+          <li><a href="http://modernizr.com/">Modernizr</a>: Browser Feature Detection, JavaScript Loader</li>
+          <li><a href="http://cloudmade.com/">CloudMade</a>: Location Based Services Platform, Map Tile Generation</li>
+          <li><a href="http://www.openstreetmap.org/">OpenStreetMap</a>: Map Imagery</li>
           <li><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>: HTML5 default project</li>
-          <li><a href="http://compass-style.org/">Compass</a>: kickass CSS authoring framework</li>
+          <li><a href="http://compass-style.org/">Compass</a>: CSS authoring framework</li>
       </ul>
-      <h2>Inspiration</h2>
+      <h2>Coding &amp; Design Inspiration</h2>
       <ul>
           <li><a href="https://gist.github.com/899670">Polymaps + D3, Part 2 &mdash; Gist</a></li>
           <li><a href="https://gist.github.com/900050">d3.geo.tiler &mdash; Gist</a></li>
+          <li><a href="http://www.worldofgoo.com/">World of Goo</a></li>
+          <li><a href="http://www.hybridsoundsystem.com/">Hybrid</a></li>
       </ul>
       <h2>Reference</h2>
       <ul>
@@ -108,11 +146,40 @@
           <li><a href="http://geojson.org/">GeoJSON: JSON Geometry and Feature Description</a></li>
           <li><a href="http://shop.oreilly.com/product/9780596100087.do">XSLT 1.0 Pocket Reference (O&apos;Reilly Media)</a></li>
       </ul>
-      <h2><a href="http://www.opensource.org/licenses/mit-license.php/">License (MIT)</a></h2>
-      <p>Copyright (c) 2012 Joe Kohlmann &amp; Mitch Schwartz</p>
-      <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-      <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-      <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+     </section>
+   <section>
+     <h1>Legal</h1>
+      <h2><a href="LICENSE.txt">Madison Commons Article Explorer License</a></h2>
+      <p>Copyright (c) 2012, Joe Kohlmann and Mitch Schwartz. All rights reserved.</p>
+      
+      <p>Redistribution and use in source and binary forms, with or without
+      modification, are permitted provided that the following conditions are met:</p>
+      <ul>
+          <li>Redistributions of source code must retain the above copyright
+            notice, this list of conditions and the following disclaimer.</li>
+          <li>Redistributions in binary form must reproduce the above copyright
+            notice, this list of conditions and the following disclaimer in the
+            documentation and/or other materials provided with the distribution.</li>
+          <li>Neither the names of Joe Kohlmann or Mitch Schwartz or the
+            names of its contributors may be used to endorse or promote products
+            derived from this software without specific prior written permission.</li>
+      </ul>
+      <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+      ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+      WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+      DISCLAIMED. IN NO EVENT SHALL JOE KOHLMANN OR MITCH SCHWARTZ BE LIABLE FOR ANY
+      DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+      (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+      LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+      ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+      (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+      SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+      <h2><a href="https://raw.github.com/mbostock/d3/master/LICENSE">D3.js License</a></h2>
+      <p>Copyright (c) 2012, Michael Bostock. All rights reserved.</p>
+      <h2><a href="https://raw.github.com/simplegeo/polymaps/9545cfc3423c00296f88a171262edcb3075203d4/LICENSE">Polymaps License</a></h2>
+      <p>Copyright (c) 2010, SimpleGeo and Stamen Design. All rights reserved.</p>
+      <h2><a href="http://modernizr.com/license/">Modernizr License</a></h2>
+      <p>Copyright (c) 2009–2011.</p>
   </section>
   </div>
 </body>
