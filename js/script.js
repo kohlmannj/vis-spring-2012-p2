@@ -41,13 +41,13 @@ d3.select("body").on("mousemove", function() {
     // console.log(d3.mouse(this));
     // d3.select("#popover").style("-webkit-transform", );
     var left = (position[0] + 6);
-    if (left > window.innerWidth - 284) {
-        left = window.innerWidth - 284;
+    if (left > window.innerWidth - 340) {
+        left = window.innerWidth - 340;
     }
     
     var top = (position[1] + 12);
-    if (top > window.innerHeight - 172) {
-        top = window.innerHeight - 172;
+    if (top > window.innerHeight - 228) {
+        top = window.innerHeight - 228;
     }
     
     if (movePopover) {

@@ -121,7 +121,7 @@ var tagColors = {
 d3.xml("data/?src=locations&by=kml", function(xmlResult) {
     
     d3.json("data/?src=stories&by=location&as=json", function(json) {
-        console.log(json);
+        // console.log(json);
         var layer = d3.select("#content svg")
             .insert("svg:g", ".compass")
             .attr("id", "locations")
@@ -199,7 +199,9 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
                     };
                 }
                 
-                if ( ! tagColors.hasOwnProperty(child.secondMostPopularTag.index) ) {
+                if (child.secondMostPopularTag.index == -1) {
+                    child.secondMostPopularTag = child.mostPopularTag;
+                } else if ( ! tagColors.hasOwnProperty(child.secondMostPopularTag.index)) {
                     child.secondMostPopularTag = {
                         index: "default",
                         name: null,
@@ -252,42 +254,45 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
                     .style("border-color", tagColors[d.secondMostPopularTag.index])
                     .style("background-color", tagColors[d.mostPopularTag.index]);
                 if (d.mostPopularTag.index == "default") {
-                    d3.select("#popover").style("color", "#111");
+                    d3.select("#popover").style("color", "#111")
+                        .style("text-shadow", "0 1px 1px rgba(255,255,255,0.35)");
                 } else {
-                    d3.select("#popover").style("color", "");
+                    d3.select("#popover").style("color", "")
+                        .style("text-shadow", "");
                 }
                 
                 d3.select("#popoverTitle").html(d.name);
                 d3.select("#popoverContent").html(strip(d.teaser));
-                
-                console.log(d.tags);
+                d3.select("#popoverTags").html("");
                 
                 for (var i = 0; i < d.tags.length; i++) {
                     var tag = d.tags[i];
                     d3.select("#popoverTags")
                         .append("a")
-                        .style("background-color", tagColors[tag.index])
-                        .attr("href", "http://madisoncommons.org/?q=taxonomy/term/" + tag.index)
+                        .style("background-color", tagColors.hasOwnProperty(tag.index) ? tagColors[tag.index] : tagColors["default"])
+                        .style("color", tagColors.hasOwnProperty(tag.index) ? "" : "#111")
+                        .style("text-shadow", tagColors.hasOwnProperty(tag.index) ? "" : "0 1px 1px rgba(255,255,255,0.35)")
+                        // .attr("href", "http://madisoncommons.org/?q=taxonomy/term/" + tag.index)
+                        .text(tag.name)
+                        .attr("title", tag.desc)
                         .on("click", function() {
                             window.open("http://madisoncommons.org/?q=taxonomy/term/" + tag.index);
                         });
                 }
-                
-                // document.getElementById("popover").className = "shown";
-                // document.getElementById("popover").style.borderColor = tagColors[d.mostPopularTag.index];
             })
             .on("mouseout", function(d,i) {
                 if (d3.select("#popover").classed("huge")) return;
                 if (!movePopover) return;
                 popoverCounter--;
-                console.log("exit", popoverCounter);
                 if (popoverCounter <= 0) {
                     // document.getElementById("popover").style.borderColor = "#000";
                     popoverHide = window.setTimeout(resetPopover, 500);
                 }
             })
             .on("click", function(d,i) {
-                d3.select("#popover").classed("huge", true).select("#popoverContent").html("<h2>" + d.name + "</h2><div id=\"iframeContainer\"><iframe src=\"http://madisoncommons.org/?q=node/" + d.nid + "#content\"><a href=\"http://madisoncommons.org/?q=node/" + d.nid + "\">" + d.name + "</a></iframe></div>");
+                d3.select("#popover").classed("huge", true);
+                d3.select("#popoverTitle").html(d.name);
+                d3.select("#popoverContent").html("<div id=\"iframeContainer\"><iframe src=\"http://madisoncommons.org/?q=node/" + d.nid + "#content\"><a href=\"http://madisoncommons.org/?q=node/" + d.nid + "\">" + d.name + "</a></iframe></div>");
                 // window.open("http://madisoncommons.org/?q=node/" + d.nid);
             });
         
