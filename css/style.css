@@ -481,15 +481,12 @@ circle.node {
   display: block;
 }
 
-/* line 252, ../sass/style.scss */
-footer {
+/* line 254, ../sass/style.scss */
+footer #showCredits, footer img {
   position: absolute;
+  left: 8px;
   bottom: 8px;
-  right: 8px;
   z-index: 2;
-  width: 320px;
-  height: 48px;
-  overflow: hidden;
 }
 /* line 260, ../sass/style.scss */
 footer img {
@@ -500,11 +497,13 @@ footer img {
 }
 /* line 266, ../sass/style.scss */
 footer #showCredits {
-  background: url('../img/help.png?1336963420') no-repeat center;
+  background: url('../img/help.png?1336967385') no-repeat center;
   text-indent: -9999px;
   float: right;
   width: 48px;
   height: 48px;
+  left: auto;
+  right: 8px;
   text-align: center;
   cursor: pointer;
 }

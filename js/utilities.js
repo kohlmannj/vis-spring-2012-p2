@@ -201,6 +201,7 @@ function resetPopover() {
         .style("border-color", "")
         .style("background-color", "")
         .style("color", "")
+        .style("text-shadow", "")
         .classed("shown", false)
         .classed("huge", false);
     

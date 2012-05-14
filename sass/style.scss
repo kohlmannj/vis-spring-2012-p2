@@ -250,13 +250,13 @@ circle.node {
 }
 
 footer {
-    position: absolute;
-    bottom: 8px;
-    right: 8px;
-    z-index: 2;
-    width: 320px;
-    height: 48px;
-    overflow: hidden;
+
+    #showCredits, img {
+        position: absolute;
+        left: 8px;
+        bottom: 8px;
+        z-index: 2;
+    }
     img {
         height: 48px;
         width: 263px;
@@ -269,6 +269,8 @@ footer {
         float: right;
         width: 48px;
         height: 48px;
+        left: auto;
+        right: 8px;
         text-align: center;
         cursor: pointer;
     }
