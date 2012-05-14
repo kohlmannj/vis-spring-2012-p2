@@ -1,0 +1,117 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Madison Commons Article Explorer (Prototype)</title>
+  <meta name="description" content="">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <style type="text/css" media="screen">
+    #container {
+        max-width: 640px;
+        line-height: 18px;
+        margin: 0 auto;
+        padding: 18px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        line-height: 54px;
+        font-weight: bold;
+        margin-bottom: 18px;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 18px;
+        margin-bottom: 9px;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    strong, a {
+        font-weight: bold;
+    }
+    
+    p, p+p {
+        margin-top: 9px;
+        text-indent: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <div id="container">
+  <header>
+      <h1>Madison Commons Article Explorer (Prototype)</h1>
+  </header>
+  
+  <section>
+      <img src="img/explorer.png" alt="A screenshot of the Madison Commons Article Explorer over the city of Madison. Multi-colored circles overlaid on the map represent articles in the Madison Commons database.">
+      <h2>About</h2>
+      <p>The Madison Commons Article Explorer (Prototype) allows <a href="http://madisoncommons.org/">Madison Commons</a> readers to explore the world of community events, issues and activities through a beautiful geographical visualization. Each circle on the map represents an article, <strong>colored according to which regional topics</strong> it pertains to. Readers can explore the rich local content of Madison Commons literally without losing their place in the world.</p>
+      <h2>Instructions</h2>
+      <ul>
+          <li><strong>Movement</strong>: <strong>Click and drag</strong> on the map to pan around the visualization.</li>
+          <li><strong>Zooming</strong>: Use the <strong>(+) and (-) buttons</strong> in the upper left corner or <strong>double-click</strong> on the map.</li>
+          <li><strong>Explore Articles</strong>: <strong>Hover over an article</strong> to display its title, an excerpt and its tagged topics.</li>
+          <li><strong>Read Articles</strong>: <strong>Click on an article</strong> to read it without leaving the visualization. Use the <strong>Close</strong> button in the upper-left to continue exploring.</li>
+      </ul>
+  </section>
+  
+  <section>
+      <h2>Visualization Project 2 Team</h2>
+      <ul>
+          <li><strong>Joe Kohlmann &amp; Mitch Schwartz</strong>: Design &amp; Planning</li>
+          <li><strong>Joe Kohlmann</strong>: Implementation, Data Mangling</li>
+          <li><strong>Mitch Schwartz</strong>: Write-Up, Data Wrangling</li>
+      </ul>
+      <h2>Third-Party Frameworks</h2>
+      <ul>
+          <li><a href="http://d3js.org/">D3.js</a>: Data-Driven Documents Framework, Force-Directed Graph Implementation</li>
+          <li><a href="http://polymaps.org/">Polymaps</a>: Interactive Map Framework</li>
+          <li><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>: HTML5 default project</li>
+          <li><a href="http://compass-style.org/">Compass</a>: kickass CSS authoring framework</li>
+      </ul>
+      <h2>Inspiration</h2>
+      <ul>
+          <li><a href="https://gist.github.com/899670">Polymaps + D3, Part 2 &mdash; Gist</a></li>
+          <li><a href="https://gist.github.com/900050">d3.geo.tiler &mdash; Gist</a></li>
+      </ul>
+      <h2>Reference</h2>
+      <ul>
+          <li><a href="https://developers.google.com/kml/documentation/kmlreference">KML Reference - Keyhole Markup Language</a></li>
+          <li><a href="http://geojson.org/">GeoJSON: JSON Geometry and Feature Description</a></li>
+          <li><a href="http://shop.oreilly.com/product/9780596100087.do">XSLT 1.0 Pocket Reference (O&apos;Reilly Media)</a></li>
+      </ul>
+      <h2><a href="http://www.opensource.org/licenses/mit-license.php/">License (MIT)</a></h2>
+      <p>Copyright (c) 2012 Joe Kohlmann &amp; Mitch Schwartz</p>
+      <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+      <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+      <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+  </section>
+  </div>
+</body>
+</html>
