@@ -282,41 +282,44 @@ div#map {
   height: 32px;
   padding-top: 58px;
 }
-/* line 96, ../sass/style.scss */
-#ui #myLocation span {
-  background-image: url('../img/location.png?1335930159');
-}
 
-/* line 101, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 circle {
   stroke-width: 2px;
 }
 
-/* line 106, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 circle.node {
   cursor: pointer;
 }
 
-/* line 110, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
+circle#userLocation {
+  stroke-width: 4px;
+  stroke: #00aaff;
+  fill: none;
+}
+
+/* line 112, ../sass/style.scss */
 .layer path {
   fill: none;
   stroke: #1f77b4;
   stroke-width: 2px;
 }
 
-/* line 116, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 .layer path.Polygon {
   fill: #ff0000;
   stroke-width: 0;
   opacity: 0.35;
 }
 
-/* line 122, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 .layer path.Polygon:hover {
   opacity: 0.5;
 }
 
-/* line 126, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 #popover {
   background: #333;
   border: 2px solid;
@@ -357,7 +360,7 @@ circle.node {
   line-height: 18px;
   overflow: hidden;
 }
-/* line 148, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 #popover #closePopover {
   position: absolute;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.35);
@@ -380,19 +383,19 @@ circle.node {
   border-radius: 4px;
   display: none;
 }
-/* line 167, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 #popover h2 {
   font-weight: bold;
   margin-bottom: 8px;
 }
-/* line 172, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 #popover #popoverContent {
   font-size: 14px;
   line-height: 16px;
   height: 64px;
   overflow: hidden;
 }
-/* line 179, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 #popover #popoverTags {
   max-height: 52px;
   position: absolute;
@@ -402,7 +405,7 @@ circle.node {
   float: left;
   overflow: hidden;
 }
-/* line 188, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 #popover #popoverTags a {
   text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.35);
   color: #eee;
@@ -429,12 +432,12 @@ circle.node {
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.35) 100%);
 }
 
-/* line 207, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 #popover.shown {
   opacity: 1;
 }
 
-/* line 211, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 #popover.huge {
   width: auto;
   height: auto;
@@ -446,7 +449,7 @@ circle.node {
   margin: auto;
   z-index: 3;
 }
-/* line 222, ../sass/style.scss */
+/* line 224, ../sass/style.scss */
 #popover.huge h2 {
   line-height: 30px;
   text-align: center;
@@ -456,7 +459,7 @@ circle.node {
   top: 8px;
   margin: auto;
 }
-/* line 232, ../sass/style.scss */
+/* line 234, ../sass/style.scss */
 #popover.huge #iframeContainer {
   position: absolute;
   left: 8px;
@@ -465,7 +468,7 @@ circle.node {
   top: 46px;
   margin: auto;
 }
-/* line 239, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 #popover.huge #iframeContainer iframe {
   width: 100%;
   height: 100%;
@@ -476,28 +479,28 @@ circle.node {
   border-radius: 4px;
   background: #fff;
 }
-/* line 247, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 #popover.huge #closePopover {
   display: block;
 }
 
-/* line 254, ../sass/style.scss */
+/* line 256, ../sass/style.scss */
 footer #showCredits, footer img {
   position: absolute;
   left: 8px;
   bottom: 8px;
   z-index: 2;
 }
-/* line 260, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 footer img {
   height: 48px;
   width: 263px;
   opacity: 0.65;
   cursor: pointer;
 }
-/* line 266, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 footer #showCredits {
-  background: url('../img/help.png?1336967385') no-repeat center;
+  background: url('../img/help.png?1336967686') no-repeat center;
   text-indent: -9999px;
   float: right;
   width: 48px;
