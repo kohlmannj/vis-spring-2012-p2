@@ -186,6 +186,8 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
                             child.secondMostPopularTag = locTag;
                         }
                     }
+                    // Transform integers into actual tags.
+                    child.tags[k] = locTag;
                 }
                 
                 if ( ! tagColors.hasOwnProperty(child.mostPopularTag.index) ) {
@@ -236,33 +238,57 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
             .style("stroke", function(d, i) { return tagColors[d.secondMostPopularTag.index]; })
             .style("opacity", 0.85)
             .on("mouseover", function(d,i) {
+                // Don't do anything if the huge popover is active or if we're not supposed to move the popover.
+                if (d3.select("#popover").classed("huge")) return;
                 if (!movePopover) return;
+                
+                // Counting to determine whether we should hide or show the popover.
                 popoverCounter++;
                 clearTimeout(popoverHide);
-                // console.log("enter", popoverCounter);
-                d3.select("#popover").classed("shown", true);
-                d3.select("#popover").style("border", "2px solid " + tagColors[d.secondMostPopularTag.index]).style("background", tagColors[d.mostPopularTag.index]);
+                
+                // Restyle the popover
+                d3.select("#popover")
+                    .classed("shown", true)
+                    .style("border-color", tagColors[d.secondMostPopularTag.index])
+                    .style("background-color", tagColors[d.mostPopularTag.index]);
                 if (d.mostPopularTag.index == "default") {
                     d3.select("#popover").style("color", "#111");
                 } else {
                     d3.select("#popover").style("color", "");
                 }
+                
+                d3.select("#popoverTitle").html(d.name);
+                d3.select("#popoverContent").html(strip(d.teaser));
+                
+                console.log(d.tags);
+                
+                for (var i = 0; i < d.tags.length; i++) {
+                    var tag = d.tags[i];
+                    d3.select("#popoverTags")
+                        .append("a")
+                        .style("background-color", tagColors[tag.index])
+                        .attr("href", "http://madisoncommons.org/?q=taxonomy/term/" + tag.index)
+                        .on("click", function() {
+                            window.open("http://madisoncommons.org/?q=taxonomy/term/" + tag.index);
+                        });
+                }
+                
                 // document.getElementById("popover").className = "shown";
                 // document.getElementById("popover").style.borderColor = tagColors[d.mostPopularTag.index];
             })
             .on("mouseout", function(d,i) {
+                if (d3.select("#popover").classed("huge")) return;
                 if (!movePopover) return;
                 popoverCounter--;
                 console.log("exit", popoverCounter);
                 if (popoverCounter <= 0) {
                     // document.getElementById("popover").style.borderColor = "#000";
-                    popoverHide = window.setTimeout(function() {
-                        d3.select("#popover").style("border", "").style("background", "").style("color", "").classed("shown", false);
-                    }, 500);
+                    popoverHide = window.setTimeout(resetPopover, 500);
                 }
             })
             .on("click", function(d,i) {
-                movePopover = !movePopover;
+                d3.select("#popover").classed("huge", true).select("#popoverContent").html("<h2>" + d.name + "</h2><div id=\"iframeContainer\"><iframe src=\"http://madisoncommons.org/?q=node/" + d.nid + "#content\"><a href=\"http://madisoncommons.org/?q=node/" + d.nid + "\">" + d.name + "</a></iframe></div>");
+                // window.open("http://madisoncommons.org/?q=node/" + d.nid);
             });
         
         vis.style("opacity", 1e-6)

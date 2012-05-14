@@ -45,14 +45,16 @@ d3.select("body").on("mousemove", function() {
     }
     
     var top = (position[1] + 12);
-    if (top > window.innerHeight - 164) {
-        top = window.innerHeight - 164;
+    if (top > window.innerHeight - 172) {
+        top = window.innerHeight - 172;
     }
     
     if (movePopover) {
         d3.select("#popover").style("left", left + "px").style("top", top + "px");
     }
 });
+
+d3.select("#closePopover").on("click", resetPopover);
 
 // map.add(po.kml()
 //     .url("data/?src=locations&by=kml")

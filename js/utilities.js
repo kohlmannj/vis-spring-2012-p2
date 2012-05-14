@@ -188,3 +188,22 @@ function getLocationGeoJson(xml) {
 function WidthZoom() {
     map.zoom(Math.ceil(12 + Math.log(window.innerWidth / 960) - 1/4 * Math.log(960 / window.innerWidth)));
 }
+
+function strip(html)
+{
+   var tmp = document.createElement("DIV");
+   tmp.innerHTML = html;
+   return tmp.textContent||tmp.innerText;
+}
+
+function resetPopover() {
+    d3.select("#popover")
+        .style("border-color", "")
+        .style("background-color", "")
+        .style("color", "")
+        .classed("shown", false)
+        .classed("huge", false);
+    
+    d3.select("#popoverTitle").html("Hover over an article circle to display information about it.<br>Click to read the article.");
+    d3.select("#popoverContent, #popoverTags").html("");
+}
