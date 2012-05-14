@@ -210,16 +210,3 @@ function resetPopover() {
     
     popoverCounter = 0;
 }
-
-// Pet trick: center map on current location (and add a glyph)
-if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(
-        function(position) {
-            map.center({
-                lat: position.coords.latitude,
-                lon: position.coords.longitude
-            });111111
-            // console.log("Centered on current location (" + position.coords.latitude + "," + position.coords.longitude + ")");
-        }
-    );
-}
