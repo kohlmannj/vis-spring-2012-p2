@@ -107,6 +107,10 @@ circle#userLocation {
             color: inherit;
             text-decoration: underline;
         }
+        
+        a[onclick] {
+            cursor: pointer;
+        }
     }
     
     #popoverContent {

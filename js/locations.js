@@ -215,16 +215,74 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
             }
         }
         
+        // Second pass for links. Ugh.
+        for (var i = 0; i < json.children.length; i++) {
+            var loc = json.children[i];
+            
+            for (var j = 0; j < loc.children.length; j++) {
+                var child = loc.children[j];
+                var peers = loc.children;
+                
+                child.numLinks = 0;
+                
+                for (var k = 0; k < peers.length; k++) {
+                    var peer = peers[k];
+                    if (peer == child) continue;
+                    
+                    if (child.mostPopularTag.index == peer.mostPopularTag.index) {
+                        links.push({
+                            source: child,
+                            target: peer
+                        });
+                        child.numLinks++;
+                    } // else if (child.secondMostPopularTag.index == peer.secondMostPopularTag.index) {
+                     //                        links.push({
+                     //                            source: child,
+                     //                            target: peer
+                     //                        });
+                     //                    }
+                }
+            }
+        }
+        
+        function nodeLinkDistance(d,i) {
+            var totalNumLinks = d.source.numLinks + d.target.numLinks;
+            console.log(totalNumLinks);
+            if (totalNumLinks < 5) {
+                return 12;
+            } else if (totalNumLinks < 10) {
+                return 24;
+            } else if (totalNumLinks < 20) {
+                return 32;
+            } else if (totalNumLinks < 40) {
+                return 48;
+            } else {
+                return 54;
+            }
+            
+            // if (d.source.mostPopularTag.index == d.target.mostPopularTag.index && d.source.mostPopularTag.index == d.source.secondMostPopularTag.index && d.source.secondMostPopularTag.index == d.target.secondMostPopularTag.index) {
+            //     return 30;
+            // } else if (d.source.mostPopularTag.index == d.target.mostPopularTag.index && d.source.secondMostPopularTag.index == d.target.secondMostPopularTag.index) {
+            //     return 40;
+            // } else if (d.source.mostPopularTag.index == d.target.mostPopularTag.index) {
+            //     return 50;
+            // } else if (d.source.secondMostPopularTag.index == d.target.secondMostPopularTag.index) {
+            //     return 60;
+            // } else {
+            //     return 120;
+            // }
+        }
+        
         // var nodes = d3.range(150).map(Object);
         
         // Force Layout Visualization
         var vis = layer;
         
-        var fill = d3.scale.category10();
-        
         force = d3.layout.force()
             .nodes(nodes)
             .links(links)
+            .linkDistance(nodeLinkDistance)
+            // .linkStrength(nodeLinkStrength)
             .size([window.innerWidth, window.innerHeight])
             .charge(-16)
             // .gravity(0)
@@ -234,12 +292,13 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
             .data(nodes)
             .enter().append("svg:circle")
             .attr("class", "node")
-            .attr("r", "0.65em")
+            .attr("r", "0.75em")
             .attr("cx", function(d, i) { return d.x; })
             .attr("cy", function(d, i) { return d.y; })
             .style("fill", function(d, i) { return tagColors[d.mostPopularTag.index]; })
             .style("stroke", function(d, i) { return tagColors[d.secondMostPopularTag.index]; })
             .style("opacity", 0.85)
+            .call(force.drag)
             .on("mouseover", function(d,i) {
                 // Don't do anything if the huge popover is active or if we're not supposed to move the popover.
                 if (d3.select("#popover").classed("huge")) return;
@@ -266,7 +325,7 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
                     .append("a")
                     .html(d.name)
                     .attr("onclick", "window.open('http://madisoncommons.org/?q=node/" + d.nid + "'); return false;");
-                ;
+                
                 d3.select("#popoverContent").html(strip(d.teaser));
                 d3.selectAll("#popoverTags, #popoverLocations").html("");
                 
@@ -283,7 +342,7 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
                         .attr("title", tag.desc)
                 }
                 
-                console.log(d.locations);
+                // console.log(d.locations);
                 
                 // Add locations to popover
                 for (var i = 0; i < d.locations.length; i++) {
@@ -312,7 +371,11 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
                     // window.open("http://madisoncommons.org/?q=node/" + d.nid);
                 } else {
                     d3.select("#popover").classed("shown", false).classed("huge", true);
-                    d3.select("#popoverTitle").html(d.name);
+                    d3.select("#popoverTitle").html("")
+                        .append("a")
+                        .html(d.name)
+                        .attr("onclick", "window.open('http://madisoncommons.org/?q=node/" + d.nid + "'); return false;");
+                    
                     d3.select("#popoverContent").html("<div id=\"iframeContainer\"><iframe src=\"http://madisoncommons.org/?q=node/" + d.nid + "#content\"><a href=\"http://madisoncommons.org/?q=node/" + d.nid + "\">" + d.name + "</a></iframe></div>");
                     // window.open("http://madisoncommons.org/?q=node/" + d.nid);
                 }
