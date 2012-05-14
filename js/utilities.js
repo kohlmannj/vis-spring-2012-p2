@@ -206,4 +206,6 @@ function resetPopover() {
     
     d3.select("#popoverTitle").html("Hover over an article circle to display information about it.<br>Click to read the article.");
     d3.select("#popoverContent, #popoverTags").html("");
+    
+    popoverCounter = 0;
 }
