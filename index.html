@@ -31,9 +31,9 @@
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-  <header>
+  <!-- <header>
     <h1>Vis Project 2</h1>
-  </header>
+  </header> -->
   
   <div id="ui">
     <a class="big button" id="myLocation" href="#"><span>My Location</span></a>
@@ -52,7 +52,10 @@
   </div>
   
   <footer>
-    By Joe Kohlmann and Mitch Schwartz for <a href="http://madisoncommons.org/">Madison Commons</a>.
+      <a onclick="window.open('http://madisoncommons.org/'); return false;">
+          <img src="img/logo_explorer.png" alt="Madison Commons Article Explorer">
+      </a>
+      <a id="showCredits" title="Help and Credits">Help and Credits</a>
   </footer>
 
   <!-- JavaScript at the bottom for fast page loading -->

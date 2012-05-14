@@ -207,11 +207,6 @@ body {
   font: 16px "Helvetica Neue", Helvetica, Arial, "Bitstream Vera Sans", sans-serif;
 }
 
-/* line 18, ../sass/style.scss */
-header, footer {
-  display: none;
-}
-
 /* line 22, ../sass/style.scss */
 div#map {
   width: 100%;
@@ -449,8 +444,9 @@ circle.node {
   top: 64px !important;
   bottom: 64px !important;
   margin: auto;
+  z-index: 3;
 }
-/* line 221, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 #popover.huge h2 {
   line-height: 30px;
   text-align: center;
@@ -460,7 +456,7 @@ circle.node {
   top: 8px;
   margin: auto;
 }
-/* line 231, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 #popover.huge #iframeContainer {
   position: absolute;
   left: 8px;
@@ -469,7 +465,7 @@ circle.node {
   top: 46px;
   margin: auto;
 }
-/* line 238, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 #popover.huge #iframeContainer iframe {
   width: 100%;
   height: 100%;
@@ -480,7 +476,35 @@ circle.node {
   border-radius: 4px;
   background: #fff;
 }
-/* line 246, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 #popover.huge #closePopover {
   display: block;
+}
+
+/* line 252, ../sass/style.scss */
+footer {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  z-index: 2;
+  width: 320px;
+  height: 48px;
+  overflow: hidden;
+}
+/* line 260, ../sass/style.scss */
+footer img {
+  height: 48px;
+  width: 263px;
+  opacity: 0.65;
+  cursor: pointer;
+}
+/* line 266, ../sass/style.scss */
+footer #showCredits {
+  background: url('../img/help.png?1336963420') no-repeat center;
+  text-indent: -9999px;
+  float: right;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  cursor: pointer;
 }

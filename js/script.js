@@ -57,6 +57,12 @@ d3.select("body").on("mousemove", function() {
 
 d3.select("#closePopover").on("click", resetPopover);
 
+d3.select("#showCredits").on("click", function() {
+    d3.select("#popover").classed("shown", true).classed("huge", true);
+    d3.select("#popoverTitle").html("Madison Commons Article Explorer Help &amp; Credits");
+    d3.select("#popoverContent").html("<div id=\"iframeContainer\"><iframe src=\"credits.html\"><a href=\"credits.html\">Help &amp; Credits</a></iframe></div>");
+})
+
 // map.add(po.kml()
 //     .url("data/?src=locations&by=kml")
 //     .tile(false));
