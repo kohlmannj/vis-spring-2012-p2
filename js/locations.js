@@ -175,6 +175,7 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
                 child.mostPopularTag = { index: -1, name: null, count: -1 };
                 child.secondMostPopularTag = { index: -1, name: null, count: -1 };
                 
+                // Iterate through tags and find most popular ones
                 for (var k = 0; k < child.tags.length; k++) {
                     var locTag = loc.tags[child.tags[k]];
                     // console.log(locTag.index, locTag.name, locTag.count);
@@ -263,8 +264,9 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
                 
                 d3.select("#popoverTitle").html(d.name);
                 d3.select("#popoverContent").html(strip(d.teaser));
-                d3.select("#popoverTags").html("");
+                d3.selectAll("#popoverTags, #popoverLocations").html("");
                 
+                // Add tags to popover
                 for (var i = 0; i < d.tags.length; i++) {
                     var tag = d.tags[i];
                     d3.select("#popoverTags")
@@ -272,13 +274,25 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
                         .style("background-color", tagColors.hasOwnProperty(tag.index) ? tagColors[tag.index] : tagColors["default"])
                         .style("color", tagColors.hasOwnProperty(tag.index) ? "" : "#111")
                         .style("text-shadow", tagColors.hasOwnProperty(tag.index) ? "" : "0 1px 1px rgba(255,255,255,0.35)")
-                        // .attr("href", "http://madisoncommons.org/?q=taxonomy/term/" + tag.index)
-                        .text(tag.name)
-                        .attr("title", tag.desc)
+                        .attr("onclick", "window.open('http://madisoncommons.org/?q=taxonomy/term/" + tag.index + "'); return false;")
+                        .html("<span class='name'>" + tag.name + "</span><span class='count'>" + tag.count + "</span>")
+                        .attr("title", tag.name + (tag.desc != "") ?  ": " + tag.desc : "")
+                }
+                
+                console.log(d.locations);
+                
+                // Add locations to popover
+                for (var i = 0; i < d.locations.length; i++) {
+                    var loc = d.locations[i];
+                    d3.select("#popoverLocations")
+                        .append("a")
+                        .html("<span class='name'>" + loc.name + "</span>")
+                        .attr("title", loc.desc)
                         .on("click", function() {
-                            window.open("http://madisoncommons.org/?q=taxonomy/term/" + tag.index);
+                            window.open("http://madisoncommons.org/?q=taxonomy/term/" + loc.index);
                         });
                 }
+                
             })
             .on("mouseout", function(d,i) {
                 if (d3.select("#popover").classed("huge")) return;
@@ -334,6 +348,10 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
             // layer.selectAll("circle.node").attr("font-size", scale + "em");
             
             force.resume();
+            
+            if (d3.select("#popover").classed("huge")) {
+                resetPopover();
+            }
             
             // force.size([centerPoint.x * 2, centerPoint.y * 2]);
         }).on("resize", function() {

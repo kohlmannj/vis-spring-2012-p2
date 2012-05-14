@@ -396,17 +396,19 @@ circle#userLocation {
   overflow: hidden;
 }
 /* line 181, ../sass/style.scss */
-#popover #popoverTags {
+#popover #popoverTags, #popover #popoverLocations {
+  background: inherit;
   max-height: 52px;
   position: absolute;
+  padding-top: 6px;
   left: 8px;
   bottom: 4px;
-  right: 8px;
+  width: 45%;
   float: left;
   overflow: hidden;
 }
-/* line 190, ../sass/style.scss */
-#popover #popoverTags a {
+/* line 192, ../sass/style.scss */
+#popover #popoverTags a, #popover #popoverLocations a {
   text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.35);
   color: #eee;
   font-size: 12px;
@@ -430,26 +432,75 @@ circle#userLocation {
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.35) 100%);
   background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.35) 100%);
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.35) 100%);
+  background-color: #ccc;
+  text-decoration: none;
+}
+/* line 210, ../sass/style.scss */
+#popover #popoverTags a:hover, #popover #popoverLocations a:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.25)), color-stop(100%, rgba(0, 0, 0, 0.5)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+/* line 214, ../sass/style.scss */
+#popover #popoverTags a span.name, #popover #popoverLocations a span.name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: left;
+  max-width: 90px;
+  text-align: left;
+}
+/* line 223, ../sass/style.scss */
+#popover #popoverTags a span.count, #popover #popoverLocations a span.count {
+  text-align: right;
+  width: 12px;
+  font-size: 10px;
+  float: right;
+  margin-left: 4px;
+}
+/* line 233, ../sass/style.scss */
+#popover #popoverLocations {
+  left: auto;
+  right: 8px;
+}
+/* line 237, ../sass/style.scss */
+#popover #popoverLocations a span.name {
+  max-width: 112px;
 }
 
-/* line 209, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 #popover.shown {
   opacity: 1;
 }
 
-/* line 213, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 #popover.huge {
   width: auto;
   height: auto;
   max-width: 1440px;
-  left: 64px !important;
-  right: 64px !important;
+  left: 0 !important;
+  right: 0 !important;
   top: 64px !important;
   bottom: 64px !important;
   margin: auto;
+  border-width: 4px;
   z-index: 3;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
 }
-/* line 224, ../sass/style.scss */
+/* line 263, ../sass/style.scss */
+#popover.huge #popoverTags a span.name, #popover.huge #popoverLocations a span.name {
+  max-width: 100%;
+}
+/* line 268, ../sass/style.scss */
 #popover.huge h2 {
   line-height: 30px;
   text-align: center;
@@ -459,46 +510,42 @@ circle#userLocation {
   top: 8px;
   margin: auto;
 }
-/* line 234, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 #popover.huge #iframeContainer {
   position: absolute;
-  left: 8px;
-  right: 8px;
+  left: 0;
+  right: 0;
   bottom: 64px;
   top: 46px;
   margin: auto;
+  outline: 1px solid rgba(0, 0, 0, 0.5);
 }
-/* line 241, ../sass/style.scss */
+/* line 286, ../sass/style.scss */
 #popover.huge #iframeContainer iframe {
   width: 100%;
   height: 100%;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
   background: #fff;
 }
-/* line 249, ../sass/style.scss */
+/* line 293, ../sass/style.scss */
 #popover.huge #closePopover {
   display: block;
 }
 
-/* line 256, ../sass/style.scss */
+/* line 300, ../sass/style.scss */
 footer #showCredits, footer img {
   position: absolute;
   left: 8px;
   bottom: 8px;
   z-index: 2;
 }
-/* line 262, ../sass/style.scss */
+/* line 306, ../sass/style.scss */
 footer img {
   height: 48px;
   width: 263px;
   opacity: 0.65;
   cursor: pointer;
 }
-/* line 268, ../sass/style.scss */
+/* line 312, ../sass/style.scss */
 footer #showCredits {
   background: url('../img/help.png?1336967686') no-repeat center;
   text-indent: -9999px;
