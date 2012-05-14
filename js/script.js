@@ -33,11 +33,8 @@ popoverHide = window.setTimeout(function() {
     d3.select("#popover").style("border", "").style("background", "").style("color", "").classed("shown", false);
 }, 500);
 
-d3.select("body").on("mousemove", function() {
-    var position = d3.mouse(this);
-    if (altPopoverAnchor) {
-        console.log( d3.select(altPopoverAnchor) );
-    }
+function repositionPopover(target) {
+    var position = d3.mouse(target);
     // console.log(d3.mouse(this));
     // d3.select("#popover").style("-webkit-transform", );
     var left = (position[0] + 6);
@@ -53,15 +50,21 @@ d3.select("body").on("mousemove", function() {
     if (movePopover) {
         d3.select("#popover").style("left", left + "px").style("top", top + "px");
     }
+}
+
+d3.select("body").on("mousemove", function() {
+    if (! Modernizr.touch) {
+        repositionPopover(this);
+    }
 });
 
 d3.select("#closePopover").on("click", resetPopover);
 
 d3.select("#showCredits").on("click", function() {
-    d3.select("#popover").classed("shown", true).classed("huge", true);
+    resetPopover();
+    d3.select("#popover").classed("huge", true);
     d3.select("#popoverTitle").html("Madison Commons Article Explorer Help &amp; Credits");
     d3.select("#popoverContent").html("<div id=\"iframeContainer\"><iframe src=\"credits.html\"><a href=\"credits.html\">Help &amp; Credits</a></iframe></div>");
-    d3.select("#popoverTags").html("");
 })
 
 // map.add(po.kml()

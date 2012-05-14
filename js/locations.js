@@ -262,7 +262,11 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
                         .style("text-shadow", "");
                 }
                 
-                d3.select("#popoverTitle").html(d.name);
+                d3.select("#popoverTitle").html("")
+                    .append("a")
+                    .html(d.name)
+                    .attr("onclick", "window.open('http://madisoncommons.org/?q=node/" + d.nid + "'); return false;");
+                ;
                 d3.select("#popoverContent").html(strip(d.teaser));
                 d3.selectAll("#popoverTags, #popoverLocations").html("");
                 
@@ -276,7 +280,7 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
                         .style("text-shadow", tagColors.hasOwnProperty(tag.index) ? "" : "0 1px 1px rgba(255,255,255,0.35)")
                         .attr("onclick", "window.open('http://madisoncommons.org/?q=taxonomy/term/" + tag.index + "'); return false;")
                         .html("<span class='name'>" + tag.name + "</span><span class='count'>" + tag.count + "</span>")
-                        .attr("title", tag.name + (tag.desc != "") ?  ": " + tag.desc : "")
+                        .attr("title", tag.desc)
                 }
                 
                 console.log(d.locations);
@@ -298,16 +302,20 @@ d3.xml("data/?src=locations&by=kml", function(xmlResult) {
                 if (d3.select("#popover").classed("huge")) return;
                 if (!movePopover) return;
                 popoverCounter--;
-                if (popoverCounter <= 0) {
+                if (popoverCounter <= 0 && ! Modernizr.touch) {
                     // document.getElementById("popover").style.borderColor = "#000";
                     popoverHide = window.setTimeout(resetPopover, 500);
                 }
             })
             .on("click", function(d,i) {
-                d3.select("#popover").classed("huge", true);
-                d3.select("#popoverTitle").html(d.name);
-                d3.select("#popoverContent").html("<div id=\"iframeContainer\"><iframe src=\"http://madisoncommons.org/?q=node/" + d.nid + "#content\"><a href=\"http://madisoncommons.org/?q=node/" + d.nid + "\">" + d.name + "</a></iframe></div>");
-                // window.open("http://madisoncommons.org/?q=node/" + d.nid);
+                if (Modernizr.touch) {
+                    // window.open("http://madisoncommons.org/?q=node/" + d.nid);
+                } else {
+                    d3.select("#popover").classed("shown", false).classed("huge", true);
+                    d3.select("#popoverTitle").html(d.name);
+                    d3.select("#popoverContent").html("<div id=\"iframeContainer\"><iframe src=\"http://madisoncommons.org/?q=node/" + d.nid + "#content\"><a href=\"http://madisoncommons.org/?q=node/" + d.nid + "\">" + d.name + "</a></iframe></div>");
+                    // window.open("http://madisoncommons.org/?q=node/" + d.nid);
+                }
             });
         
         vis.style("opacity", 1e-6)
