@@ -3,6 +3,7 @@ var po = org.polymaps;
 // Create the map object, add it to #map…
 var map = po.map()
     .container(d3.select("#content").append("svg:svg").node())
+    .center( {lon: -89.41027432085747, lat: 43.07710790050927} )
     // .center( {lon: -89.40853026500001, lat: 43.0695419255} )
     .zoom(12)
     .zoomRange([10, 14])
