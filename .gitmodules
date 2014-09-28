@@ -1,12 +1,12 @@
 [submodule "docs"]
 	path = docs
-	url = https://kohlmannj@jgraphics.net/git/vis-p2-docs.git
+	url = https://kohlmannj@bitbucket.org/kohlmannj/vis-p2-docs.git
 [submodule "js/libs/polymaps"]
 	path = js/libs/polymaps
-	url = https://kohlmannj@jgraphics.net/git/polymaps.git
+	url = https://github.com/kohlmannj/polymaps.git
 [submodule "js/libs/d3"]
 	path = js/libs/d3
 	url = https://github.com/mbostock/d3.git
 [submodule "data"]
 	path = data
-	url = https://jgraphics.net/git/vis-p2-data.git
+	url = https://kohlmannj@bitbucket.org/kohlmannj/vis-p2-data.git
