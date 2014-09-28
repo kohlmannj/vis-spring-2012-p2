@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags index="2" name="Topics">
+	<tag index="134">
+		<name>City</name>
+		<desc/>
+	</tag>
+	<tag index="135">
+		<name>Development</name>
+		<desc/>
+	</tag>
+	<tag index="136">
+		<name>Diversity</name>
+		<desc/>
+	</tag>
+	<tag index="137">
+		<name>Environment</name>
+		<desc/>
+	</tag>
+	<tag index="138">
+		<name>Housing</name>
+		<desc/>
+	</tag>
+	<tag index="139">
+		<name>Local Business</name>
+		<desc/>
+	</tag>
+	<tag index="140">
+		<name>Local Media</name>
+		<desc/>
+	</tag>
+	<tag index="141">
+		<name>Neighborhood Profiles</name>
+		<desc/>
+	</tag>
+	<tag index="142">
+		<name>Parks &amp; Recreation</name>
+		<desc/>
+	</tag>
+	<tag index="143">
+		<name>People</name>
+		<desc/>
+	</tag>
+	<tag index="144">
+		<name>Safety</name>
+		<desc/>
+	</tag>
+	<tag index="145">
+		<name>Education</name>
+		<desc/>
+	</tag>
+	<tag index="146">
+		<name>Services</name>
+		<desc/>
+	</tag>
+	<tag index="147">
+		<name>Sports</name>
+		<desc/>
+	</tag>
+	<tag index="148">
+		<name>Street Life</name>
+		<desc/>
+	</tag>
+	<tag index="149">
+		<name>Streets and Sidewalks</name>
+		<desc/>
+	</tag>
+	<tag index="150">
+		<name>Transportation</name>
+		<desc/>
+	</tag>
+	<tag index="151">
+		<name>Voices</name>
+		<desc/>
+	</tag>
+	<tag index="152">
+		<name>Youth</name>
+		<desc/>
+	</tag>
+	<tag index="182">
+		<name>Food</name>
+		<desc>food related topics, such as sustainable farming, environmental or health issues.</desc>
+	</tag>
+	<tag index="208">
+		<name>City Life</name>
+		<desc>Stories of living and sharing in our city</desc>
+	</tag>
+</tags>

@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locations index="1" name="Madison Neighborhoods">
+    <loc index="1">
+        <name>East</name>
+        <desc>the eastern neighborhoods.</desc>
+    </loc>
+    <loc index="2">
+        <name>Bluff Acres</name>
+        <desc/>
+        <parent index="1"/>
+    </loc>
+    <loc index="3">
+        <name>Burke Heights</name>
+        <desc/>
+        <parent index="1"/>
+    </loc>
+    <loc index="4">
+        <name>Clarendon Hills</name>
+        <desc/>
+        <parent index="1"/>
+    </loc>
+    <loc index="5">
+        <name>East Buckeye</name>
+        <desc/>
+        <parent index="1"/>
+    </loc>
+    <loc index="6">
+        <name>Elvehjem</name>
+        <desc/>
+        <parent index="1"/>
+    </loc>
+    <loc index="7">
+        <name>Heistand</name>
+        <desc/>
+        <parent index="1"/>
+    </loc>
+    <loc index="8">
+        <name>Heritage Heights</name>
+        <desc/>
+        <parent index="1"/>
+    </loc>
+    <loc index="9">
+        <name>Norman Acres</name>
+        <desc/>
+        <parent index="1"/>
+    </loc>
+    <loc index="10">
+        <name>Richmond Hill</name>
+        <desc/>
+        <parent index="1"/>
+    </loc>
+    <loc index="11">
+        <name>Ridgewood</name>
+        <desc/>
+        <parent index="1"/>
+    </loc>
+    <loc index="12">
+        <name>Rolling Meadows</name>
+        <desc/>
+        <parent index="1"/>
+    </loc>
+    <loc index="14">
+        <name>Westchester Gardens</name>
+        <desc/>
+        <parent index="1"/>
+    </loc>
+    <loc index="15">
+        <name>Blackhawk</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="16">
+        <name>Far West</name>
+        <desc>Far West neighborhoods.</desc>
+    </loc>
+    <loc index="17">
+        <name>Epernay</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="18">
+        <name>Junction Ridge</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="19">
+        <name>Millstone</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="20">
+        <name>Oakbridge Community Services</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="21">
+        <name>Oakbridge Condominium</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="22">
+        <name>Sauk Creek Condominium</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="23">
+        <name>Sauk Creek Homeowners</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="24">
+        <name>Tamarack Trails</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="25">
+        <name>Walnut Grove</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="26">
+        <name>Westview Meadows</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="27">
+        <name>Wexford Crossing</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="28">
+        <name>Wexford Ridge</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="29">
+        <name>Wexford Village Condominium</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="30">
+        <name>Wexford Village Homeowners</name>
+        <desc/>
+        <parent index="16"/>
+    </loc>
+    <loc index="31">
+        <name>Isthmus</name>
+        <desc/>
+    </loc>
+    <loc index="32">
+        <name>Capitol Neighborhood Inc</name>
+        <desc/>
+        <parent index="31"/>
+    </loc>
+    <loc index="33">
+        <name>Marquette</name>
+        <desc/>
+        <parent index="31"/>
+    </loc>
+    <loc index="34">
+        <name>Old Market Place</name>
+        <desc/>
+        <parent index="31"/>
+    </loc>
+    <loc index="35">
+        <name>Sherman Terrace</name>
+        <desc/>
+        <parent index="31"/>
+    </loc>
+    <loc index="36">
+        <name>Tenney-Lapham</name>
+        <desc/>
+        <parent index="31"/>
+    </loc>
+    <loc index="37">
+        <name>UW Campus</name>
+        <desc/>
+        <parent index="31"/>
+    </loc>
+    <loc index="38">
+        <name>Near East</name>
+        <desc/>
+    </loc>
+    <loc index="39">
+        <name>Carpenter-Ridgeway</name>
+        <desc/>
+        <parent index="38"/>
+    </loc>
+    <loc index="40">
+        <name>Eastmorland</name>
+        <desc/>
+        <parent index="38"/>
+    </loc>
+    <loc index="41">
+        <name>Eken Park</name>
+        <desc/>
+        <parent index="38"/>
+    </loc>
+    <loc index="42">
+        <name>Emerson East</name>
+        <desc/>
+        <parent index="38"/>
+    </loc>
+    <loc index="43">
+        <name>Glendale</name>
+        <desc/>
+        <parent index="38"/>
+    </loc>
+    <loc index="44">
+        <name>Hawthorne</name>
+        <desc/>
+        <parent index="38"/>
+    </loc>
+    <loc index="45">
+        <name>Lake Edge</name>
+        <desc/>
+        <parent index="38"/>
+    </loc>
+    <loc index="46">
+        <name>Mayfair Park</name>
+        <desc/>
+        <parent index="38"/>
+    </loc>
+    <loc index="47">
+        <name>Pflaum Road</name>
+        <desc/>
+        <parent index="38"/>
+    </loc>
+    <loc index="49">
+        <name>Schenk-Atwood- Starkweather</name>
+        <desc/>
+        <parent index="38"/>
+    </loc>
+    <loc index="50">
+        <name>Truax</name>
+        <desc/>
+        <parent index="38"/>
+    </loc>
+    <loc index="51">
+        <name>Worthington Park</name>
+        <desc/>
+        <parent index="38"/>
+    </loc>
+    <loc index="52">
+        <name>Near West</name>
+        <desc/>
+    </loc>
+    <loc index="53">
+        <name>Bayview</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="54">
+        <name>Brittingham Apartments</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="55">
+        <name>Dudgeon-Monroe</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="56">
+        <name>Eagle Heights Assembly</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="57">
+        <name>Greenbush</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="58">
+        <name>NakomaLeague</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="59">
+        <name>Parkside Apartments</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="60">
+        <name>Sunset Hills / Radio Park</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="61">
+        <name>Regent</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="62">
+        <name>South Campus</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="64">
+        <name>Sunset Village</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="65">
+        <name>Vilas</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="66">
+        <name>Westmorland</name>
+        <desc/>
+        <parent index="52"/>
+    </loc>
+    <loc index="67">
+        <name>North</name>
+        <desc/>
+    </loc>
+    <loc index="68">
+        <name>Berkley Oaks</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="69">
+        <name>Brentwood</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="70">
+        <name>Cherokee Garden</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="71">
+        <name>CherokeePark</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="72">
+        <name>East Bluff</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="73">
+        <name>Kennedy Heights</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="74">
+        <name>Lakeview Hills</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="75">
+        <name>Lerdahl Park</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="76">
+        <name>Maple Wood</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="77">
+        <name>Mendota Hills</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="78">
+        <name>North Lake Mendota</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="79">
+        <name>Sheridan Triangle</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="80">
+        <name>Sherman</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="81">
+        <name>Sherman Village</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="82">
+        <name>Trinity Park</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="83">
+        <name>Vera Court</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="84">
+        <name>WhitetailRidge</name>
+        <desc/>
+        <parent index="67"/>
+    </loc>
+    <loc index="85">
+        <name>South Central</name>
+        <desc/>
+    </loc>
+    <loc index="86">
+        <name>Allied Drive / Dunn's Marsh</name>
+        <desc/>
+        <parent index="85"/>
+    </loc>
+    <loc index="87">
+        <name>Arbor Hills</name>
+        <desc/>
+        <parent index="85"/>
+    </loc>
+    <loc index="88">
+        <name>Bay Creek</name>
+        <desc/>
+        <parent index="85"/>
+    </loc>
+    <loc index="89">
+        <name>Bram’s Addition</name>
+        <desc/>
+        <parent index="85"/>
+    </loc>
+    <loc index="90">
+        <name>Broadway-Lake Point</name>
+        <desc/>
+        <parent index="85"/>
+    </loc>
+    <loc index="91">
+        <name>Burr Oaks</name>
+        <desc/>
+        <parent index="85"/>
+    </loc>
+    <loc index="92">
+        <name>Capitol View Heights</name>
+        <desc/>
+        <parent index="85"/>
+    </loc>
+    <loc index="94">
+        <name>Highland Manor</name>
+        <desc/>
+        <parent index="85"/>
+    </loc>
+    <loc index="95">
+        <name>Indian Springs</name>
+        <desc/>
+        <parent index="85"/>
+    </loc>
+    <loc index="96">
+        <name>Moorland-Rimrock</name>
+        <desc/>
+        <parent index="85"/>
+    </loc>
+    <loc index="97">
+        <name>Waunona</name>
+        <desc/>
+        <parent index="85"/>
+    </loc>
+    <loc index="98">
+        <name>Southwest</name>
+        <desc/>
+    </loc>
+    <loc index="99">
+        <name>Country Grove</name>
+        <desc/>
+        <parent index="98"/>
+    </loc>
+    <loc index="100">
+        <name>Greentree</name>
+        <desc/>
+        <parent index="98"/>
+    </loc>
+    <loc index="101">
+        <name>High Point Estates</name>
+        <desc/>
+        <parent index="98"/>
+    </loc>
+    <loc index="102">
+        <name>Maple-Prairie</name>
+        <desc/>
+        <parent index="98"/>
+    </loc>
+    <loc index="103">
+        <name>Meadowood</name>
+        <desc/>
+        <parent index="98"/>
+    </loc>
+    <loc index="104">
+        <name>Orchard Ridge</name>
+        <desc/>
+        <parent index="98"/>
+    </loc>
+    <loc index="105">
+        <name>Park Ridge</name>
+        <desc/>
+        <parent index="98"/>
+    </loc>
+    <loc index="106">
+        <name>Prairie Hills</name>
+        <desc/>
+        <parent index="98"/>
+    </loc>
+    <loc index="107">
+        <name>Skyview Meadows</name>
+        <desc/>
+        <parent index="98"/>
+    </loc>
+    <loc index="108">
+        <name>Stone Meadows</name>
+        <desc/>
+        <parent index="98"/>
+    </loc>
+    <loc index="109">
+        <name>Westhaven Trails</name>
+        <desc/>
+        <parent index="98"/>
+    </loc>
+    <loc index="110">
+        <name>West</name>
+        <desc/>
+    </loc>
+    <loc index="111">
+        <name>Appalachian Ridge NA</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="112">
+        <name>Faircrest</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="113">
+        <name>Glen Oak Hills</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="114">
+        <name>Highlands</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="116">
+        <name>Marbella</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="117">
+        <name>Mendota Beach</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="118">
+        <name>Midvale Heights</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="119">
+        <name>Oakwood Village</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="120">
+        <name>Old Middleton Greenway</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="121">
+        <name>Parkwood Hills</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="122">
+        <name>Parkwood Village</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="123">
+        <name>Parkwood West</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="124">
+        <name>Saukborough</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="125">
+        <name>Skyview Terrace</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="126">
+        <name>Spring Harbor</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="127">
+        <name>Stonefield Woods-Ridge</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="128">
+        <name>Summit Woods</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="129">
+        <name>University Hill Farms</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="130">
+        <name>Wisconsin Co-op Housing</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="131">
+        <name>Woodland Hills</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="132">
+        <name>Woodlands Hills Condominum</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+    <loc index="133">
+        <name>Wyndemere Condominum</name>
+        <desc/>
+        <parent index="110"/>
+    </loc>
+	<loc index="209">
+		<name>Monona Bay Neighborhood Association</name>
+		<desc>Monona Bay Neighborhood Association is a relatively new addition that encompasses Bayview, Brittingham, &amp; Parkside Apts, even though they still operate somewhat independent from the larger neighborhood.</desc>
+		<parent index="31"/>
+	</loc>
+</locations>
