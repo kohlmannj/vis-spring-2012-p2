@@ -11,9 +11,9 @@ var map = po.map()
 
 // Add the CloudMade image tiles as a base layer
 map.add(po.image()
-    .url(po.url("http://{S}tile.cloudmade.com"
-    + "/c36eb13cd9ed4855af9ae010a968c1a7" // http://cloudmade.com/register
-    + "/33481" + ( (window.devicePixelRatio && window.devicePixelRatio == 2) ? "@2x" : "" ) + "/256/{Z}/{X}/{Y}.png")
+    .url(po.url("http://{S}tiles.mapbox.com/v3/kohlmannj.jkh193a5/"
+    /* + "/c36eb13cd9ed4855af9ae010a968c1a7" // http://cloudmade.com/register
+    + "/33481" + ( (window.devicePixelRatio && window.devicePixelRatio == 2) ? "@2x" : "" ) + "/256/" */ + "{Z}/{X}/{Y}.png")
     .hosts(["a.", "b.", "c.", ""]))
     .zoom(function(z) {
         var dz = Math.log(window.devicePixelRatio || 1) / Math.LN2;
