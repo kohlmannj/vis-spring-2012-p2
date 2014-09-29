@@ -1,0 +1,4212 @@
+{
+    "name": "Locations",
+    "index": 1,
+    "children": [
+
+
+    {
+        "index": 1,
+        "name": "East",
+        "desc": "the eastern neighborhoods.",
+        "count": 11,
+
+        "tags": {
+            "134": {
+                "index": 134,
+                "name": "City",
+                "desc": "",
+                "count": 4
+            },
+            "137": {
+                "index": 137,
+                "name": "Environment",
+                "desc": "",
+                "count": 2
+            },
+            "139": {
+                "index": 139,
+                "name": "Local Business",
+                "desc": "",
+                "count": 3
+            },
+            "144": {
+                "index": 144,
+                "name": "Safety",
+                "desc": "",
+                "count": 1
+            },
+            "145": {
+                "index": 145,
+                "name": "Education",
+                "desc": "",
+                "count": 4
+            },
+            "150": {
+                "index": 150,
+                "name": "Transportation",
+                "desc": "",
+                "count": 1
+            },
+            "152": {
+                "index": 152,
+                "name": "Youth",
+                "desc": "",
+                "count": 1
+            },
+            "182": {
+                "index": 182,
+                "name": "Food",
+                "desc": "food related topics, such as sustainable farming, environmental or health issues.",
+                "count": 2
+            }
+        },
+
+        "locations": {
+            "1": {
+                "index": 1,
+                "name": "East"
+            },
+            "10": {
+                "index": 10,
+                "name": "Richmond Hill"
+            },
+            "11": {
+                "index": 11,
+                "name": "Ridgewood"
+            },
+            "12": {
+                "index": 12,
+                "name": "Rolling Meadows"
+            },
+            "14": {
+                "index": 14,
+                "name": "Westchester Gardens"
+            },
+            "2": {
+                "index": 2,
+                "name": "Bluff Acres"
+            },
+            "3": {
+                "index": 3,
+                "name": "Burke Heights"
+            },
+            "4": {
+                "index": 4,
+                "name": "Clarendon Hills"
+            },
+            "5": {
+                "index": 5,
+                "name": "East Buckeye"
+            },
+            "6": {
+                "index": 6,
+                "name": "Elvehjem"
+            },
+            "7": {
+                "index": 7,
+                "name": "Heistand"
+            },
+            "8": {
+                "index": 8,
+                "name": "Heritage Heights"
+            },
+            "9": {
+                "index": 9,
+                "name": "Norman Acres"
+            }
+        },
+
+        "children": [
+
+        {
+            "name": "Get biking: safety, etiquette and fun tips",
+            "nid": 940,
+            "teaser": "<p>Ten simple rules for biking safely in Madison",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "Local businesses object to proposed ordinance",
+            "nid": 917,
+            "teaser": "<p>The proposed ordinance would require registration of secondhand goods<br>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [134, 139, 144]
+        },
+        {
+            "name": "Do you CHIP?",
+            "nid": 907,
+            "teaser": "<p>A unique fundraiser asks grocery shoppers to support local nonprofits&nbsp;",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            }
+            ],
+
+            "tags": [139]
+        },
+        {
+            "name": "Half Pint resale at the Goodman Center",
+            "nid": 876,
+            "teaser": "<p><span>[img_assist|nid=877|title=|desc=|link=node|align=left|width=205|height=154]Moms (and some dads) line up for the popular semi-annual Half Pint resale at the Goodman Center on the east side on September 9 and 10. This year attracted a record number of consignors - those parents looking to resell all the stuff their kids have grown out of &nbsp;-- with more than 350 contributing everything from baby clothes to toys to kid blankets.&nbsp;</span></p>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            }
+            ],
+
+            "tags": [139]
+        },
+        {
+            "name": "MMSD Gets Fresh Food Grant",
+            "nid": 789,
+            "teaser": "<p>Elementary school students enjoy local, fresh produce while learning about healthy eating",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145]
+        },
+        {
+            "name": "Water Utility Board approves all four East Side Water Supply Project proposals",
+            "nid": 793,
+            "teaser": "<P>Board approves water quality and supply projects to be implemented over next four years",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            }
+            ],
+
+            "tags": [134]
+        },
+        {
+            "name": "Calling all Madison residents, East Side Water Supply Project holds public hearing",
+            "nid": 766,
+            "teaser": "<p>The East Side Water Supply Project Citizen&#8217;s Advisory Panel (CAP) will present plans to address the future of water quality and supply on Madison&#8217;s East Side during a public hearing held by the Water Utility Board this Tuesday, July 12<sup>th</sup>.",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            }
+            ],
+
+            "tags": [134, 137]
+        },
+        {
+            "name": "East Side Water Supply Project Reaches Out",
+            "nid": 751,
+            "teaser": "<p>Group aims to inform citizens about upcoming water quality and supply projects while also gaining neighborhood feedback</p><p>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            }
+            ],
+
+            "tags": [134, 137]
+        },
+        {
+            "name": "For School Garden Advocates, a Path Strewn with Obstacles (Part 2/2)",
+            "nid": 669,
+            "teaser": "<p>When it comes time to plant new peas at the Lapham Elementary School garden this year, there might not be anyone there to do it.</p><p>Jim Hansen, who for five years has coordinated the garden and introduced hundreds of students to the soil, plants and critters, might not be able to continue working at Lapham if his position is defunded.</p><p>Like most school garden initiatives, Hansen&#8217;s position is tenuous, dependent on funding from parent groups and grants.</p><p>&#8220;Trying to run any kind of project on soft money, I think, is really dicey,&#8221; he said.</p>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 33,
+                "name": "Marquette",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145, 152]
+        },
+        {
+            "name": "Dual Immersion Program Offers Elementary School Students Opportunity for Bilingualism",
+            "nid": 646,
+            "teaser": "<p>At Nuestro Mundo Elementary School, a charter school on Madison&#8217;s east side, students are taught in both English and Spanish in the hopes of producing completely bilingual students. Despite low initial test scores, advocates say bilingual instruction gives students invaluable tools for the future.</p><p>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 5,
+                "name": "East Buckeye",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145]
+        },
+        {
+            "name": "Elvehjem Elementary and LVM Dreams Big celebrates $20,000 donation from Sara Lee Foundation",
+            "nid": 379,
+            "teaser": "<p><strong>Art Rainwater Celebrates $20,000 Sara Lee Foundation Grant to LVM Dreams Big</strong></p>",
+            "locations": [
+            {
+                "index": 5,
+                "name": "East Buckeye",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145]
+        }
+        ]
+    },
+
+    {
+        "index": 16,
+        "name": "Far West",
+        "desc": "Far West neighborhoods.",
+        "count": 5,
+
+        "tags": {
+            "134": {
+                "index": 134,
+                "name": "City",
+                "desc": "",
+                "count": 1
+            },
+            "139": {
+                "index": 139,
+                "name": "Local Business",
+                "desc": "",
+                "count": 1
+            },
+            "144": {
+                "index": 144,
+                "name": "Safety",
+                "desc": "",
+                "count": 1
+            },
+            "145": {
+                "index": 145,
+                "name": "Education",
+                "desc": "",
+                "count": 3
+            },
+            "150": {
+                "index": 150,
+                "name": "Transportation",
+                "desc": "",
+                "count": 1
+            },
+            "152": {
+                "index": 152,
+                "name": "Youth",
+                "desc": "",
+                "count": 1
+            },
+            "182": {
+                "index": 182,
+                "name": "Food",
+                "desc": "food related topics, such as sustainable farming, environmental or health issues.",
+                "count": 1
+            },
+            "208": {
+                "index": 208,
+                "name": "City Life",
+                "desc": "Stories of living and sharing in our city",
+                "count": 1
+            }
+        },
+
+        "locations": {
+            "15": {
+                "index": 15,
+                "name": "Blackhawk"
+            },
+            "16": {
+                "index": 16,
+                "name": "Far West"
+            },
+            "17": {
+                "index": 17,
+                "name": "Epernay"
+            },
+            "18": {
+                "index": 18,
+                "name": "Junction Ridge"
+            },
+            "19": {
+                "index": 19,
+                "name": "Millstone"
+            },
+            "20": {
+                "index": 20,
+                "name": "Oakbridge Community Services"
+            },
+            "21": {
+                "index": 21,
+                "name": "Oakbridge Condominium"
+            },
+            "22": {
+                "index": 22,
+                "name": "Sauk Creek Condominium"
+            },
+            "23": {
+                "index": 23,
+                "name": "Sauk Creek Homeowners"
+            },
+            "24": {
+                "index": 24,
+                "name": "Tamarack Trails"
+            },
+            "25": {
+                "index": 25,
+                "name": "Walnut Grove"
+            },
+            "26": {
+                "index": 26,
+                "name": "Westview Meadows"
+            },
+            "27": {
+                "index": 27,
+                "name": "Wexford Crossing"
+            },
+            "28": {
+                "index": 28,
+                "name": "Wexford Ridge"
+            },
+            "29": {
+                "index": 29,
+                "name": "Wexford Village Condominium"
+            },
+            "30": {
+                "index": 30,
+                "name": "Wexford Village Homeowners"
+            }
+        },
+
+        "children": [
+
+        {
+            "name": "Diane Levin to Speak on the Sexualization of Childhood",
+            "nid": 895,
+            "teaser": "<p>Author of So Sexy So Soon will&nbsp;speak to parents, teachers and community members at Memorial High School about the sexualization of childhood.",
+            "locations": [
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            }
+            ],
+
+            "tags": [208, 145, 152]
+        },
+        {
+            "name": "Get biking: safety, etiquette and fun tips",
+            "nid": 940,
+            "teaser": "<p>Ten simple rules for biking safely in Madison",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "Local businesses object to proposed ordinance",
+            "nid": 917,
+            "teaser": "<p>The proposed ordinance would require registration of secondhand goods<br>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [134, 139, 144]
+        },
+        {
+            "name": "MMSD Gets Fresh Food Grant",
+            "nid": 789,
+            "teaser": "<p>Elementary school students enjoy local, fresh produce while learning about healthy eating",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145]
+        },
+        {
+            "name": "A Q&A With Michelle Yang, State Winner of the Siemens Award",
+            "nid": 658,
+            "teaser": "<p>Meet Michelle Yang, a senior at Memorial High School, and winner of this year&#8217;s Siemens Award for accomplishments on math and science Advanced Placement exams.",
+            "locations": [
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            }
+            ],
+
+            "tags": [145]
+        }
+        ]
+    },
+
+    {
+        "index": 31,
+        "name": "Isthmus",
+        "desc": "",
+        "count": 30,
+
+        "tags": {
+            "134": {
+                "index": 134,
+                "name": "City",
+                "desc": "",
+                "count": 3
+            },
+            "135": {
+                "index": 135,
+                "name": "Development",
+                "desc": "",
+                "count": 4
+            },
+            "136": {
+                "index": 136,
+                "name": "Diversity",
+                "desc": "",
+                "count": 3
+            },
+            "137": {
+                "index": 137,
+                "name": "Environment",
+                "desc": "",
+                "count": 4
+            },
+            "139": {
+                "index": 139,
+                "name": "Local Business",
+                "desc": "",
+                "count": 7
+            },
+            "141": {
+                "index": 141,
+                "name": "Neighborhood Profiles",
+                "desc": "",
+                "count": 2
+            },
+            "142": {
+                "index": 142,
+                "name": "Parks & Recreation",
+                "desc": "",
+                "count": 3
+            },
+            "143": {
+                "index": 143,
+                "name": "People",
+                "desc": "",
+                "count": 4
+            },
+            "144": {
+                "index": 144,
+                "name": "Safety",
+                "desc": "",
+                "count": 2
+            },
+            "145": {
+                "index": 145,
+                "name": "Education",
+                "desc": "",
+                "count": 11
+            },
+            "146": {
+                "index": 146,
+                "name": "Services",
+                "desc": "",
+                "count": 3
+            },
+            "147": {
+                "index": 147,
+                "name": "Sports",
+                "desc": "",
+                "count": 1
+            },
+            "149": {
+                "index": 149,
+                "name": "Streets and Sidewalks",
+                "desc": "",
+                "count": 2
+            },
+            "150": {
+                "index": 150,
+                "name": "Transportation",
+                "desc": "",
+                "count": 5
+            },
+            "151": {
+                "index": 151,
+                "name": "Voices",
+                "desc": "",
+                "count": 1
+            },
+            "152": {
+                "index": 152,
+                "name": "Youth",
+                "desc": "",
+                "count": 5
+            },
+            "182": {
+                "index": 182,
+                "name": "Food",
+                "desc": "food related topics, such as sustainable farming, environmental or health issues.",
+                "count": 16
+            },
+            "208": {
+                "index": 208,
+                "name": "City Life",
+                "desc": "Stories of living and sharing in our city",
+                "count": 3
+            }
+        },
+
+        "locations": {
+            "209": {
+                "index": 209,
+                "name": "Monona Bay Neighborhood Association"
+            },
+            "31": {
+                "index": 31,
+                "name": "Isthmus"
+            },
+            "32": {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc"
+            },
+            "33": {
+                "index": 33,
+                "name": "Marquette"
+            },
+            "34": {
+                "index": 34,
+                "name": "Old Market Place"
+            },
+            "35": {
+                "index": 35,
+                "name": "Sherman Terrace"
+            },
+            "36": {
+                "index": 36,
+                "name": "Tenney-Lapham"
+            },
+            "37": {
+                "index": 37,
+                "name": "UW Campus"
+            }
+        },
+
+        "children": [
+
+        {
+            "name": "Improving bicyclist safety increases likelihood of platinum ranking for Madison",
+            "nid": 1072,
+            "teaser": "<p><em>As the City increases its biking infrastructure, it also moves Madison towards a higher ranking by the League of American Bicyclists. </em> &nbsp;",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            }
+            ],
+
+            "tags": [208, 150, 134, 135, 137, 142, 144, 146, 149]
+        },
+        {
+            "name": "Community debates bill to repeal discrimination protection for felons",
+            "nid": 953,
+            "teaser": "<p>A new bill proposed by&nbsp;Wisconsin&nbsp;Republican representatives would repeal discrimination protection for felons and may limit employment opportunities",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            }
+            ],
+
+            "tags": [208, 134, 139, 143]
+        },
+        {
+            "name": "Debate over Willy Street Co-op driveway continues",
+            "nid": 1052,
+            "teaser": "<p>Jenifer Street residents say the driveway has increased traffic in the residential neighborhood, but many co-op users believe the driveway is a needed safety measure",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 141, 139]
+        },
+        {
+            "name": "Fresh Madison Market to launch mobile market",
+            "nid": 1040,
+            "teaser": "<p>The market will bring fresh food to South Madison",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 86,
+                "name": "Allied Drive / Dunn's Marsh",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 135]
+        },
+        {
+            "name": "Exhibit features visually impaired artists",
+            "nid": 1035,
+            "teaser": "<p>Vision Through Time showcases the work of visually impaired Wisconsin artists",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145, 135, 136, 151]
+        },
+        {
+            "name": "The other Halloween party on State Street",
+            "nid": 1025,
+            "teaser": "<p>State Street shops and businesses hosted a Halloween celebration for children and families",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 139, 152]
+        },
+        {
+            "name": "Dane County Food Council announces new coalition",
+            "nid": 970,
+            "teaser": "<p>The coalition will coordinate activity of food-related groups",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182]
+        },
+        {
+            "name": "New Kitchen Gallery location increases store&#8217;s space and visibility",
+            "nid": 957,
+            "teaser": "<p>The more prominent space on King St. includes room for cooking classes, and was acquired with a 24-hour fundraising feat.",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182]
+        },
+        {
+            "name": "Get biking: safety, etiquette and fun tips",
+            "nid": 940,
+            "teaser": "<p>Ten simple rules for biking safely in Madison",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "Local businesses object to proposed ordinance",
+            "nid": 917,
+            "teaser": "<p>The proposed ordinance would require registration of secondhand goods<br>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [134, 139, 144]
+        },
+        {
+            "name": "Car-free and Carefree",
+            "nid": 918,
+            "teaser": "<p>Ride the Drive allows Madisonians to experience the city in a new way",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "Festival presents the science behind Wisconsin&#8217;s favorite foods",
+            "nid": 919,
+            "teaser": "<p>The first annual Wisconsin Science Festival took a look at the ins and outs of beer, bratwurst and ice cream",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182]
+        },
+        {
+            "name": "Madison smells fishy: fishing the Isthmus ",
+            "nid": 904,
+            "teaser": "<p>The 'reel' scoop on fishing in Madison",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            },
+            {
+                "index": 36,
+                "name": "Tenney-Lapham",
+                "desc": ""
+            },
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 78,
+                "name": "North Lake Mendota",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 137, 143, 147]
+        },
+        {
+            "name": "Food for Thought Festival highlights importance of buying local ",
+            "nid": 908,
+            "teaser": "<p class=Standard>Featuring local vendors, workshops and demonstrations, the Food for Thought Festival emphasizes local and sustainable foods",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182]
+        },
+        {
+            "name": "Student food enthusiasts inspire national day of action",
+            "nid": 900,
+            "teaser": "<p>Slow Food UW sets a national trend for delicious, $5 meals",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182]
+        },
+        {
+            "name": "Local Author Encourages Community to &#8220;Complicate&#8221; View of Islam",
+            "nid": 790,
+            "teaser": "<p>Amitabh Pal introduces his new book, Islam means Peace",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145, 136, 139]
+        },
+        {
+            "name": "MMSD Gets Fresh Food Grant",
+            "nid": 789,
+            "teaser": "<p>Elementary school students enjoy local, fresh produce while learning about healthy eating",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145]
+        },
+        {
+            "name": "For School Garden Advocates, a Path Strewn with Obstacles (Part 2/2)",
+            "nid": 669,
+            "teaser": "<p>When it comes time to plant new peas at the Lapham Elementary School garden this year, there might not be anyone there to do it.</p><p>Jim Hansen, who for five years has coordinated the garden and introduced hundreds of students to the soil, plants and critters, might not be able to continue working at Lapham if his position is defunded.</p><p>Like most school garden initiatives, Hansen&#8217;s position is tenuous, dependent on funding from parent groups and grants.</p><p>&#8220;Trying to run any kind of project on soft money, I think, is really dicey,&#8221; he said.</p>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 33,
+                "name": "Marquette",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145, 152]
+        },
+        {
+            "name": "ESL at Shorewood helps the &#8220;little UN&#8221; learn English",
+            "nid": 671,
+            "teaser": "<p>ESL classes at Shorewood Hill Elementary School offer English language instruction to the school&#8217;s uniquely diverse population.",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145, 136]
+        },
+        {
+            "name": "Grace Food Pantry helps meet local need for food",
+            "nid": 1068,
+            "teaser": "<p>To increase access for community families, pantry will allow more frequent visits</p><p>",
+            "locations": [
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            }
+            ],
+
+            "tags": [208, 182, 146]
+        },
+        {
+            "name": "REAP's Farm to School Program provides fresh fruits and vegetables at snack time",
+            "nid": 977,
+            "teaser": "<p>Over 4,000 MMSD students benefit from healthy mealtime snacks",
+            "locations": [
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            },
+            {
+                "index": 70,
+                "name": "Cherokee Garden",
+                "desc": ""
+            },
+            {
+                "index": 77,
+                "name": "Mendota Hills",
+                "desc": ""
+            },
+            {
+                "index": 83,
+                "name": "Vera Court",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145, 135, 143, 152]
+        },
+        {
+            "name": "Which Way Will Win? The debate over Johnson and Gorham ",
+            "nid": 985,
+            "teaser": "<p>Gorham and Johnson Streets are the gateways in and out of downtown Madison, respectively. According to city records, the two roads both see upwards of 20,000 cars each day. All of that could be changing soon.</p><p>",
+            "locations": [
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "An edible classroom at Sherman Middle School ",
+            "nid": 950,
+            "teaser": "<div><p>L'Etoile chef teaches students how to grow and prepare their own food at Sherman Middle School",
+            "locations": [
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            },
+            {
+                "index": 76,
+                "name": "Maple Wood",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145, 137, 139, 152]
+        },
+        {
+            "name": "Revising the Ride",
+            "nid": 734,
+            "teaser": "<p>Local business owners discuss impacts of Ride the Drive, which Mayor Soglin canceled for the Fall",
+            "locations": [
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150, 139, 142, 149]
+        },
+        {
+            "name": "Safety First at Safety Saturday",
+            "nid": 691,
+            "teaser": "<p>Last Saturday, Capitol Square bustled with more activity than usual, as thousands of Madisonians gathered to not only browse the Farmer&#8217;s Market, but also explore Safety Saturday, an event aimed at educating local residents about the importance of putting safety first</p><p>",
+            "locations": [
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145]
+        },
+        {
+            "name": "New Tenney Park shelter nears completion",
+            "nid": 991,
+            "teaser": "<p>Set to open December 3, the neighborhood's newest social center creates local excitement",
+            "locations": [
+            {
+                "index": 36,
+                "name": "Tenney-Lapham",
+                "desc": ""
+            }
+            ],
+
+            "tags": [141]
+        },
+        {
+            "name": "MEDiC program celebrates 20 years of service",
+            "nid": 974,
+            "teaser": "<p>Program provides healthcare to Madison's underserved populations",
+            "locations": [
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145, 143, 146]
+        },
+        {
+            "name": "Madison Commons Virtual Garden Show: Eagle Heights Community Gardens brings diversity to Madison gardening",
+            "nid": 869,
+            "teaser": "<p>Diversity of produce and gardening techniques at Eagle Heights Community Gardens reflects the diversity of the neighborhood",
+            "locations": [
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 56,
+                "name": "Eagle Heights Assembly",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 137, 142]
+        },
+        {
+            "name": "UW-Madison Improves Four-Year Graduation Rate",
+            "nid": 731,
+            "teaser": "<p>UW-Madison improves four-year-graduation rate, stresses importance of educational experience",
+            "locations": [
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145]
+        },
+        {
+            "name": "Slow Food, Going Fast: Popular New Caf&#233; Celebrates Local Ingredients",
+            "nid": 676,
+            "teaser": "<p>It wasn&#8217;t your ordinary BLT.</p><p>On March 30, when the 93rd customer of the day ordered lunch at the new Slow Food Caf&#233;, the student chefs were nearly out of ingredients for their &#8220;Big, Local and Tasty&#8221; sandwich. What the customer got was a &#8220;bacon grilled cheese mash up.&#8221;</p>",
+            "locations": [
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145, 152]
+        }
+        ]
+    },
+
+    {
+        "index": 38,
+        "name": "Near East",
+        "desc": "",
+        "count": 11,
+
+        "tags": {
+            "134": {
+                "index": 134,
+                "name": "City",
+                "desc": "",
+                "count": 3
+            },
+            "137": {
+                "index": 137,
+                "name": "Environment",
+                "desc": "",
+                "count": 2
+            },
+            "139": {
+                "index": 139,
+                "name": "Local Business",
+                "desc": "",
+                "count": 1
+            },
+            "142": {
+                "index": 142,
+                "name": "Parks & Recreation",
+                "desc": "",
+                "count": 1
+            },
+            "144": {
+                "index": 144,
+                "name": "Safety",
+                "desc": "",
+                "count": 1
+            },
+            "145": {
+                "index": 145,
+                "name": "Education",
+                "desc": "",
+                "count": 3
+            },
+            "146": {
+                "index": 146,
+                "name": "Services",
+                "desc": "",
+                "count": 1
+            },
+            "150": {
+                "index": 150,
+                "name": "Transportation",
+                "desc": "",
+                "count": 1
+            },
+            "152": {
+                "index": 152,
+                "name": "Youth",
+                "desc": "",
+                "count": 1
+            },
+            "182": {
+                "index": 182,
+                "name": "Food",
+                "desc": "food related topics, such as sustainable farming, environmental or health issues.",
+                "count": 7
+            },
+            "208": {
+                "index": 208,
+                "name": "City Life",
+                "desc": "Stories of living and sharing in our city",
+                "count": 1
+            }
+        },
+
+        "locations": {
+            "38": {
+                "index": 38,
+                "name": "Near East"
+            },
+            "39": {
+                "index": 39,
+                "name": "Carpenter-Ridgeway"
+            },
+            "40": {
+                "index": 40,
+                "name": "Eastmorland"
+            },
+            "41": {
+                "index": 41,
+                "name": "Eken Park"
+            },
+            "42": {
+                "index": 42,
+                "name": "Emerson East"
+            },
+            "43": {
+                "index": 43,
+                "name": "Glendale"
+            },
+            "44": {
+                "index": 44,
+                "name": "Hawthorne"
+            },
+            "45": {
+                "index": 45,
+                "name": "Lake Edge"
+            },
+            "46": {
+                "index": 46,
+                "name": "Mayfair Park"
+            },
+            "47": {
+                "index": 47,
+                "name": "Pflaum Road"
+            },
+            "49": {
+                "index": 49,
+                "name": "Schenk-Atwood- Starkweather"
+            },
+            "50": {
+                "index": 50,
+                "name": "Truax"
+            },
+            "51": {
+                "index": 51,
+                "name": "Worthington Park"
+            }
+        },
+
+        "children": [
+
+        {
+            "name": "Goodman Community Center distributes 1400 Thanksgiving baskets",
+            "nid": 1060,
+            "teaser": "<p>Goodman Community Center provided 1400 free Thanksgiving food baskets this year despite fundraising challenges.",
+            "locations": [
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 48,
+                "name": "",
+                "desc": ""
+            },
+            {
+                "index": 49,
+                "name": "Schenk-Atwood- Starkweather",
+                "desc": ""
+            }
+            ],
+
+            "tags": [208, 182, 146]
+        },
+        {
+            "name": "Dane County Food Council announces new coalition",
+            "nid": 970,
+            "teaser": "<p>The coalition will coordinate activity of food-related groups",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182]
+        },
+        {
+            "name": "New Kitchen Gallery location increases store&#8217;s space and visibility",
+            "nid": 957,
+            "teaser": "<p>The more prominent space on King St. includes room for cooking classes, and was acquired with a 24-hour fundraising feat.",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182]
+        },
+        {
+            "name": "Get biking: safety, etiquette and fun tips",
+            "nid": 940,
+            "teaser": "<p>Ten simple rules for biking safely in Madison",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "Local businesses object to proposed ordinance",
+            "nid": 917,
+            "teaser": "<p>The proposed ordinance would require registration of secondhand goods<br>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [134, 139, 144]
+        },
+        {
+            "name": "MMSD Gets Fresh Food Grant",
+            "nid": 789,
+            "teaser": "<p>Elementary school students enjoy local, fresh produce while learning about healthy eating",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145]
+        },
+        {
+            "name": "For School Garden Advocates, a Path Strewn with Obstacles (Part 2/2)",
+            "nid": 669,
+            "teaser": "<p>When it comes time to plant new peas at the Lapham Elementary School garden this year, there might not be anyone there to do it.</p><p>Jim Hansen, who for five years has coordinated the garden and introduced hundreds of students to the soil, plants and critters, might not be able to continue working at Lapham if his position is defunded.</p><p>Like most school garden initiatives, Hansen&#8217;s position is tenuous, dependent on funding from parent groups and grants.</p><p>&#8220;Trying to run any kind of project on soft money, I think, is really dicey,&#8221; he said.</p>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 33,
+                "name": "Marquette",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145, 152]
+        },
+        {
+            "name": "High School Credit Union Offers Students Hands-on Financial Experience",
+            "nid": 630,
+            "teaser": "<p>New student-operated credit union at LaFollette High School offers students hands-on opportunities to improve financial literacy.</p><p>",
+            "locations": [
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 47,
+                "name": "Pflaum Road",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145]
+        },
+        {
+            "name": "Carpenter-Ridgeway cleans up neighborhood streets and park",
+            "nid": 674,
+            "teaser": "<p>Carpenter-Ridgeway neighbors gathered together on April 22 to celebrate Earth Day by cleaning up their neighborhood and planting local trees in their park.</p><p>",
+            "locations": [
+            {
+                "index": 39,
+                "name": "Carpenter-Ridgeway",
+                "desc": ""
+            }
+            ],
+
+            "tags": [134, 137]
+        },
+        {
+            "name": "Madison&#8217;s Own Summerfest",
+            "nid": 807,
+            "teaser": "<p>Atwood Summerfest, a fundraiser and community building event organized by a corp of volunteers from the Goodman Community Center, gathered hundreds of people on Saturday for some good food and music that can only be found on Madison&#8217;s east side.</p><p>",
+            "locations": [
+            {
+                "index": 49,
+                "name": "Schenk-Atwood- Starkweather",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 142]
+        },
+        {
+            "name": "Kipp Contamination Spreads to Neighborhood Basement",
+            "nid": 661,
+            "teaser": "<p>Several residents to the east of Madison-Kipp Corporation&#8217;s Waubesa plant were informed last week that there are elevated levels of contaminated soil vapors under their homes.</p><p>",
+            "locations": [
+            {
+                "index": 49,
+                "name": "Schenk-Atwood- Starkweather",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 134, 137]
+        }
+        ]
+    },
+
+    {
+        "index": 52,
+        "name": "Near West",
+        "desc": "",
+        "count": 14,
+
+        "tags": {
+            "134": {
+                "index": 134,
+                "name": "City",
+                "desc": "",
+                "count": 2
+            },
+            "135": {
+                "index": 135,
+                "name": "Development",
+                "desc": "",
+                "count": 1
+            },
+            "136": {
+                "index": 136,
+                "name": "Diversity",
+                "desc": "",
+                "count": 2
+            },
+            "137": {
+                "index": 137,
+                "name": "Environment",
+                "desc": "",
+                "count": 4
+            },
+            "139": {
+                "index": 139,
+                "name": "Local Business",
+                "desc": "",
+                "count": 1
+            },
+            "141": {
+                "index": 141,
+                "name": "Neighborhood Profiles",
+                "desc": "",
+                "count": 2
+            },
+            "142": {
+                "index": 142,
+                "name": "Parks & Recreation",
+                "desc": "",
+                "count": 3
+            },
+            "144": {
+                "index": 144,
+                "name": "Safety",
+                "desc": "",
+                "count": 2
+            },
+            "145": {
+                "index": 145,
+                "name": "Education",
+                "desc": "",
+                "count": 6
+            },
+            "146": {
+                "index": 146,
+                "name": "Services",
+                "desc": "",
+                "count": 1
+            },
+            "149": {
+                "index": 149,
+                "name": "Streets and Sidewalks",
+                "desc": "",
+                "count": 1
+            },
+            "150": {
+                "index": 150,
+                "name": "Transportation",
+                "desc": "",
+                "count": 4
+            },
+            "152": {
+                "index": 152,
+                "name": "Youth",
+                "desc": "",
+                "count": 1
+            },
+            "182": {
+                "index": 182,
+                "name": "Food",
+                "desc": "food related topics, such as sustainable farming, environmental or health issues.",
+                "count": 5
+            },
+            "208": {
+                "index": 208,
+                "name": "City Life",
+                "desc": "Stories of living and sharing in our city",
+                "count": 1
+            }
+        },
+
+        "locations": {
+            "52": {
+                "index": 52,
+                "name": "Near West"
+            },
+            "53": {
+                "index": 53,
+                "name": "Bayview"
+            },
+            "54": {
+                "index": 54,
+                "name": "Brittingham Apartments"
+            },
+            "55": {
+                "index": 55,
+                "name": "Dudgeon-Monroe"
+            },
+            "56": {
+                "index": 56,
+                "name": "Eagle Heights Assembly"
+            },
+            "57": {
+                "index": 57,
+                "name": "Greenbush"
+            },
+            "58": {
+                "index": 58,
+                "name": "NakomaLeague"
+            },
+            "59": {
+                "index": 59,
+                "name": "Parkside Apartments"
+            },
+            "60": {
+                "index": 60,
+                "name": "Sunset Hills / Radio Park"
+            },
+            "61": {
+                "index": 61,
+                "name": "Regent"
+            },
+            "62": {
+                "index": 62,
+                "name": "South Campus"
+            },
+            "64": {
+                "index": 64,
+                "name": "Sunset Village"
+            },
+            "65": {
+                "index": 65,
+                "name": "Vilas"
+            },
+            "66": {
+                "index": 66,
+                "name": "Westmorland"
+            }
+        },
+
+        "children": [
+
+        {
+            "name": "Improving bicyclist safety increases likelihood of platinum ranking for Madison",
+            "nid": 1072,
+            "teaser": "<p><em>As the City increases its biking infrastructure, it also moves Madison towards a higher ranking by the League of American Bicyclists. </em> &nbsp;",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            }
+            ],
+
+            "tags": [208, 150, 134, 135, 137, 142, 144, 146, 149]
+        },
+        {
+            "name": "Update: Madison Prep selects location",
+            "nid": 1024,
+            "teaser": "<p>The school will be located at&nbsp;4018 Mineral Point Road",
+            "locations": [
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145]
+        },
+        {
+            "name": "Madison Commons Virtual Garden Show: Triangle Neighborhood Garden is home to a diverse population of growers",
+            "nid": 978,
+            "teaser": "<p>The only thing more diverse than the produce is the community",
+            "locations": [
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 53,
+                "name": "Bayview",
+                "desc": ""
+            },
+            {
+                "index": 54,
+                "name": "Brittingham Apartments",
+                "desc": ""
+            },
+            {
+                "index": 59,
+                "name": "Parkside Apartments",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 141, 136, 137]
+        },
+        {
+            "name": "Madison Commons Virtual Garden Show: Enjoying the fruits of their labor at Arboretum Cohousing",
+            "nid": 943,
+            "teaser": "<p>The Arboretum Cohousing community shares not only a garden, but a way of life",
+            "locations": [
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 65,
+                "name": "Vilas",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 141, 137, 142]
+        },
+        {
+            "name": "Madison Commons Virtual Garden Show: Eagle Heights Community Gardens brings diversity to Madison gardening",
+            "nid": 869,
+            "teaser": "<p>Diversity of produce and gardening techniques at Eagle Heights Community Gardens reflects the diversity of the neighborhood",
+            "locations": [
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 56,
+                "name": "Eagle Heights Assembly",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 137, 142]
+        },
+        {
+            "name": "Get biking: safety, etiquette and fun tips",
+            "nid": 940,
+            "teaser": "<p>Ten simple rules for biking safely in Madison",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "Local businesses object to proposed ordinance",
+            "nid": 917,
+            "teaser": "<p>The proposed ordinance would require registration of secondhand goods<br>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [134, 139, 144]
+        },
+        {
+            "name": "MMSD Gets Fresh Food Grant",
+            "nid": 789,
+            "teaser": "<p>Elementary school students enjoy local, fresh produce while learning about healthy eating",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145]
+        },
+        {
+            "name": "For School Garden Advocates, a Path Strewn with Obstacles (Part 2/2)",
+            "nid": 669,
+            "teaser": "<p>When it comes time to plant new peas at the Lapham Elementary School garden this year, there might not be anyone there to do it.</p><p>Jim Hansen, who for five years has coordinated the garden and introduced hundreds of students to the soil, plants and critters, might not be able to continue working at Lapham if his position is defunded.</p><p>Like most school garden initiatives, Hansen&#8217;s position is tenuous, dependent on funding from parent groups and grants.</p><p>&#8220;Trying to run any kind of project on soft money, I think, is really dicey,&#8221; he said.</p>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 33,
+                "name": "Marquette",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145, 152]
+        },
+        {
+            "name": "ESL at Shorewood helps the &#8220;little UN&#8221; learn English",
+            "nid": 671,
+            "teaser": "<p>ESL classes at Shorewood Hill Elementary School offer English language instruction to the school&#8217;s uniquely diverse population.",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145, 136]
+        },
+        {
+            "name": "St. James students win $30K in national energy contest",
+            "nid": 664,
+            "teaser": "<p><span style=font-size: 11pt;  font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;>Eighth graders at St. James School recently won one of two grand prizes in the national Lexus Eco Challenge, and will receive $30,000 in grants and scholarships.",
+            "locations": [
+            {
+                "index": 53,
+                "name": "Bayview",
+                "desc": ""
+            },
+            {
+                "index": 61,
+                "name": "Regent",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145]
+        },
+        {
+            "name": "Flags Serve as Pedestrian Amenities",
+            "nid": 649,
+            "teaser": "<p>Madison neighborhoods address pedestrian safety amidst growing car traffic.</p><p>",
+            "locations": [
+            {
+                "index": 55,
+                "name": "Dudgeon-Monroe",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "Neighborhood caf&#233; trades parking stalls for patio space",
+            "nid": 687,
+            "teaser": "<p>City approval difficult for ZuZu Caf&#233;&#8217;s new outdoor patio",
+            "locations": [
+            {
+                "index": 57,
+                "name": "Greenbush",
+                "desc": ""
+            },
+            {
+                "index": 65,
+                "name": "Vilas",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "Knittin&#8217; for a Mitten: Providing local students with handmade mittens",
+            "nid": 1005,
+            "teaser": "<p>Midvale mothers urge warmer winter wear at their childrens&#8217; school by making mittens first-hand",
+            "locations": [
+            {
+                "index": 66,
+                "name": "Westmorland",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145]
+        }
+        ]
+    },
+
+    {
+        "index": 67,
+        "name": "North",
+        "desc": "",
+        "count": 8,
+
+        "tags": {
+            "134": {
+                "index": 134,
+                "name": "City",
+                "desc": "",
+                "count": 1
+            },
+            "135": {
+                "index": 135,
+                "name": "Development",
+                "desc": "",
+                "count": 1
+            },
+            "136": {
+                "index": 136,
+                "name": "Diversity",
+                "desc": "",
+                "count": 1
+            },
+            "137": {
+                "index": 137,
+                "name": "Environment",
+                "desc": "",
+                "count": 3
+            },
+            "139": {
+                "index": 139,
+                "name": "Local Business",
+                "desc": "",
+                "count": 2
+            },
+            "142": {
+                "index": 142,
+                "name": "Parks & Recreation",
+                "desc": "",
+                "count": 1
+            },
+            "143": {
+                "index": 143,
+                "name": "People",
+                "desc": "",
+                "count": 2
+            },
+            "144": {
+                "index": 144,
+                "name": "Safety",
+                "desc": "",
+                "count": 1
+            },
+            "145": {
+                "index": 145,
+                "name": "Education",
+                "desc": "",
+                "count": 4
+            },
+            "147": {
+                "index": 147,
+                "name": "Sports",
+                "desc": "",
+                "count": 1
+            },
+            "150": {
+                "index": 150,
+                "name": "Transportation",
+                "desc": "",
+                "count": 1
+            },
+            "152": {
+                "index": 152,
+                "name": "Youth",
+                "desc": "",
+                "count": 3
+            },
+            "182": {
+                "index": 182,
+                "name": "Food",
+                "desc": "food related topics, such as sustainable farming, environmental or health issues.",
+                "count": 5
+            }
+        },
+
+        "locations": {
+            "67": {
+                "index": 67,
+                "name": "North"
+            },
+            "68": {
+                "index": 68,
+                "name": "Berkley Oaks"
+            },
+            "69": {
+                "index": 69,
+                "name": "Brentwood"
+            },
+            "70": {
+                "index": 70,
+                "name": "Cherokee Garden"
+            },
+            "71": {
+                "index": 71,
+                "name": "CherokeePark"
+            },
+            "72": {
+                "index": 72,
+                "name": "East Bluff"
+            },
+            "73": {
+                "index": 73,
+                "name": "Kennedy Heights"
+            },
+            "74": {
+                "index": 74,
+                "name": "Lakeview Hills"
+            },
+            "75": {
+                "index": 75,
+                "name": "Lerdahl Park"
+            },
+            "76": {
+                "index": 76,
+                "name": "Maple Wood"
+            },
+            "77": {
+                "index": 77,
+                "name": "Mendota Hills"
+            },
+            "78": {
+                "index": 78,
+                "name": "North Lake Mendota"
+            },
+            "79": {
+                "index": 79,
+                "name": "Sheridan Triangle"
+            },
+            "80": {
+                "index": 80,
+                "name": "Sherman"
+            },
+            "81": {
+                "index": 81,
+                "name": "Sherman Village"
+            },
+            "82": {
+                "index": 82,
+                "name": "Trinity Park"
+            },
+            "83": {
+                "index": 83,
+                "name": "Vera Court"
+            },
+            "84": {
+                "index": 84,
+                "name": "WhitetailRidge"
+            }
+        },
+
+        "children": [
+
+        {
+            "name": "Madison Commons Virtual Garden Show: Troy Gardens brings farming to the city",
+            "nid": 855,
+            "teaser": "<p>Troy Gardens builds a thriving community around urban agriculture",
+            "locations": [
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 137, 142, 152]
+        },
+        {
+            "name": "Get biking: safety, etiquette and fun tips",
+            "nid": 940,
+            "teaser": "<p>Ten simple rules for biking safely in Madison",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "Local businesses object to proposed ordinance",
+            "nid": 917,
+            "teaser": "<p>The proposed ordinance would require registration of secondhand goods<br>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [134, 139, 144]
+        },
+        {
+            "name": "Madison smells fishy: fishing the Isthmus ",
+            "nid": 904,
+            "teaser": "<p>The 'reel' scoop on fishing in Madison",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            },
+            {
+                "index": 36,
+                "name": "Tenney-Lapham",
+                "desc": ""
+            },
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 78,
+                "name": "North Lake Mendota",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 137, 143, 147]
+        },
+        {
+            "name": "MMSD Gets Fresh Food Grant",
+            "nid": 789,
+            "teaser": "<p>Elementary school students enjoy local, fresh produce while learning about healthy eating",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145]
+        },
+        {
+            "name": "REAP's Farm to School Program provides fresh fruits and vegetables at snack time",
+            "nid": 977,
+            "teaser": "<p>Over 4,000 MMSD students benefit from healthy mealtime snacks",
+            "locations": [
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            },
+            {
+                "index": 70,
+                "name": "Cherokee Garden",
+                "desc": ""
+            },
+            {
+                "index": 77,
+                "name": "Mendota Hills",
+                "desc": ""
+            },
+            {
+                "index": 83,
+                "name": "Vera Court",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145, 135, 143, 152]
+        },
+        {
+            "name": "Relearning the Hmong Language",
+            "nid": 785,
+            "teaser": "<p>Hmong language classes offer the community a chance to reconnect with their roots",
+            "locations": [
+            {
+                "index": 73,
+                "name": "Kennedy Heights",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145, 136]
+        },
+        {
+            "name": "An edible classroom at Sherman Middle School ",
+            "nid": 950,
+            "teaser": "<div><p>L'Etoile chef teaches students how to grow and prepare their own food at Sherman Middle School",
+            "locations": [
+            {
+                "index": 32,
+                "name": "Capitol Neighborhood Inc",
+                "desc": ""
+            },
+            {
+                "index": 76,
+                "name": "Maple Wood",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145, 137, 139, 152]
+        }
+        ]
+    },
+
+    {
+        "index": 85,
+        "name": "South Central",
+        "desc": "",
+        "count": 12,
+
+        "tags": {
+            "134": {
+                "index": 134,
+                "name": "City",
+                "desc": "",
+                "count": 1
+            },
+            "135": {
+                "index": 135,
+                "name": "Development",
+                "desc": "",
+                "count": 1
+            },
+            "136": {
+                "index": 136,
+                "name": "Diversity",
+                "desc": "",
+                "count": 1
+            },
+            "137": {
+                "index": 137,
+                "name": "Environment",
+                "desc": "",
+                "count": 1
+            },
+            "139": {
+                "index": 139,
+                "name": "Local Business",
+                "desc": "",
+                "count": 1
+            },
+            "141": {
+                "index": 141,
+                "name": "Neighborhood Profiles",
+                "desc": "",
+                "count": 2
+            },
+            "142": {
+                "index": 142,
+                "name": "Parks & Recreation",
+                "desc": "",
+                "count": 1
+            },
+            "143": {
+                "index": 143,
+                "name": "People",
+                "desc": "",
+                "count": 2
+            },
+            "144": {
+                "index": 144,
+                "name": "Safety",
+                "desc": "",
+                "count": 1
+            },
+            "145": {
+                "index": 145,
+                "name": "Education",
+                "desc": "",
+                "count": 5
+            },
+            "146": {
+                "index": 146,
+                "name": "Services",
+                "desc": "",
+                "count": 1
+            },
+            "150": {
+                "index": 150,
+                "name": "Transportation",
+                "desc": "",
+                "count": 1
+            },
+            "151": {
+                "index": 151,
+                "name": "Voices",
+                "desc": "",
+                "count": 1
+            },
+            "152": {
+                "index": 152,
+                "name": "Youth",
+                "desc": "",
+                "count": 1
+            },
+            "182": {
+                "index": 182,
+                "name": "Food",
+                "desc": "food related topics, such as sustainable farming, environmental or health issues.",
+                "count": 6
+            },
+            "208": {
+                "index": 208,
+                "name": "City Life",
+                "desc": "Stories of living and sharing in our city",
+                "count": 1
+            }
+        },
+
+        "locations": {
+            "85": {
+                "index": 85,
+                "name": "South Central"
+            },
+            "86": {
+                "index": 86,
+                "name": "Allied Drive / Dunn's Marsh"
+            },
+            "87": {
+                "index": 87,
+                "name": "Arbor Hills"
+            },
+            "88": {
+                "index": 88,
+                "name": "Bay Creek"
+            },
+            "89": {
+                "index": 89,
+                "name": "Bram&#8217;s Addition"
+            },
+            "90": {
+                "index": 90,
+                "name": "Broadway-Lake Point"
+            },
+            "91": {
+                "index": 91,
+                "name": "Burr Oaks"
+            },
+            "92": {
+                "index": 92,
+                "name": "Capitol View Heights"
+            },
+            "94": {
+                "index": 94,
+                "name": "Highland Manor"
+            },
+            "95": {
+                "index": 95,
+                "name": "Indian Springs"
+            },
+            "96": {
+                "index": 96,
+                "name": "Moorland-Rimrock"
+            },
+            "97": {
+                "index": 97,
+                "name": "Waunona"
+            }
+        },
+
+        "children": [
+
+        {
+            "name": "Madison Apprenticeship Program gives Allied-Dunn residents another shot at success",
+            "nid": 1027,
+            "teaser": "<p>MAP offers residents a 12-week course in life skills, job-skill training, and confidence building",
+            "locations": [
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 86,
+                "name": "Allied Drive / Dunn's Marsh",
+                "desc": ""
+            },
+            {
+                "index": 93,
+                "name": "",
+                "desc": ""
+            }
+            ],
+
+            "tags": [208, 141, 136, 143, 151]
+        },
+        {
+            "name": "Thanksgiving for all at the Boys and Girls Club",
+            "nid": 1054,
+            "teaser": "<p>The Boys and Girls Club of Dane County will host a holiday event from 11 am- 3pm on Thanksgiving day at its&nbsp;Allied location, on 4619 Jenewein Road",
+            "locations": [
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 86,
+                "name": "Allied Drive / Dunn's Marsh",
+                "desc": ""
+            },
+            {
+                "index": 93,
+                "name": "",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 143, 146]
+        },
+        {
+            "name": "Fresh Madison Market to launch mobile market",
+            "nid": 1040,
+            "teaser": "<p>The market will bring fresh food to South Madison",
+            "locations": [
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 37,
+                "name": "UW Campus",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 86,
+                "name": "Allied Drive / Dunn's Marsh",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 135]
+        },
+        {
+            "name": "Madison Commons Virtual Garden Show: Taft Street Garden thrives in its first year",
+            "nid": 1009,
+            "teaser": "<p>Taft Street Gardens creates a space for children to explore fresh fruits and vegetables",
+            "locations": [
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 89,
+                "name": "Bram&#8217;s Addition",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 142, 152]
+        },
+        {
+            "name": "Madison Commons Virtual Garden Show: Lacy Garden continues to feed the community",
+            "nid": 808,
+            "teaser": "<p>[img_assist|nid=814|title=|desc=Tom and Rose Ann Parslow at Lacy Garden in Fitchburg. |link=node|align=left|width=205|height=154]<em>This is the first in a continuing series of snapshots of some of Madison&#8217;s&nbsp; community gardens, a &#8220;virtual garden show.&#8221; <em>For more, click <a href=?q=garden target=_blank>here</a>.</em><br></em></p>",
+            "locations": [
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 137]
+        },
+        {
+            "name": "Get biking: safety, etiquette and fun tips",
+            "nid": 940,
+            "teaser": "<p>Ten simple rules for biking safely in Madison",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "Festival celebrates South Madison",
+            "nid": 928,
+            "teaser": "<p>Celebrate South Madison Festival gives community an opportunity to bond over food and entertainment",
+            "locations": [
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145, 141]
+        },
+        {
+            "name": "Local businesses object to proposed ordinance",
+            "nid": 917,
+            "teaser": "<p>The proposed ordinance would require registration of secondhand goods<br>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [134, 139, 144]
+        },
+        {
+            "name": "Badger Rock kicks off year in temporary facility",
+            "nid": 887,
+            "teaser": "<p>As classes start at the newly established Badger Rock Middle School, students and staff overcome challenges and plan for the future of the school",
+            "locations": [
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 96,
+                "name": "Moorland-Rimrock",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145]
+        },
+        {
+            "name": "MMSD Gets Fresh Food Grant",
+            "nid": 789,
+            "teaser": "<p>Elementary school students enjoy local, fresh produce while learning about healthy eating",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145]
+        },
+        {
+            "name": " Local Charter School to Train Teachers in Cultural, Environmental Sustainability",
+            "nid": 632,
+            "teaser": "<p>Advocates of Badger Rock Middle School want teachers to do things a little differently. As the first teachers are hired this spring, the school district will train them to incorporate hands-on learning and cultural relevance in their classrooms.</p><p>",
+            "locations": [
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 96,
+                "name": "Moorland-Rimrock",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145]
+        },
+        {
+            "name": "Environmental Charter School Aims to Revitalize Community",
+            "nid": 628,
+            "teaser": "<p>Badger Rock Middle School, a new charter school on Madison&#8217;s south side, aims to revitalize a neighborhood some say has been neglected. With doors scheduled to open in the fall, proponents expect the school to serve the community at large.</p><p>",
+            "locations": [
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 96,
+                "name": "Moorland-Rimrock",
+                "desc": ""
+            }
+            ],
+
+            "tags": [145]
+        }
+        ]
+    },
+
+    {
+        "index": 98,
+        "name": "Southwest",
+        "desc": "",
+        "count": 5,
+
+        "tags": {
+            "134": {
+                "index": 134,
+                "name": "City",
+                "desc": "",
+                "count": 1
+            },
+            "139": {
+                "index": 139,
+                "name": "Local Business",
+                "desc": "",
+                "count": 1
+            },
+            "141": {
+                "index": 141,
+                "name": "Neighborhood Profiles",
+                "desc": "",
+                "count": 2
+            },
+            "142": {
+                "index": 142,
+                "name": "Parks & Recreation",
+                "desc": "",
+                "count": 1
+            },
+            "144": {
+                "index": 144,
+                "name": "Safety",
+                "desc": "",
+                "count": 2
+            },
+            "145": {
+                "index": 145,
+                "name": "Education",
+                "desc": "",
+                "count": 2
+            },
+            "150": {
+                "index": 150,
+                "name": "Transportation",
+                "desc": "",
+                "count": 1
+            },
+            "182": {
+                "index": 182,
+                "name": "Food",
+                "desc": "food related topics, such as sustainable farming, environmental or health issues.",
+                "count": 3
+            }
+        },
+
+        "locations": {
+            "100": {
+                "index": 100,
+                "name": "Greentree"
+            },
+            "101": {
+                "index": 101,
+                "name": "High Point Estates"
+            },
+            "102": {
+                "index": 102,
+                "name": "Maple-Prairie"
+            },
+            "103": {
+                "index": 103,
+                "name": "Meadowood"
+            },
+            "104": {
+                "index": 104,
+                "name": "Orchard Ridge"
+            },
+            "105": {
+                "index": 105,
+                "name": "Park Ridge"
+            },
+            "106": {
+                "index": 106,
+                "name": "Prairie Hills"
+            },
+            "107": {
+                "index": 107,
+                "name": "Skyview Meadows"
+            },
+            "108": {
+                "index": 108,
+                "name": "Stone Meadows"
+            },
+            "109": {
+                "index": 109,
+                "name": "Westhaven Trails"
+            },
+            "98": {
+                "index": 98,
+                "name": "Southwest"
+            },
+            "99": {
+                "index": 99,
+                "name": "Country Grove"
+            }
+        },
+
+        "children": [
+
+        {
+            "name": "Get biking: safety, etiquette and fun tips",
+            "nid": 940,
+            "teaser": "<p>Ten simple rules for biking safely in Madison",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "Festival celebrates South Madison",
+            "nid": 928,
+            "teaser": "<p>Celebrate South Madison Festival gives community an opportunity to bond over food and entertainment",
+            "locations": [
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145, 141]
+        },
+        {
+            "name": "Local businesses object to proposed ordinance",
+            "nid": 917,
+            "teaser": "<p>The proposed ordinance would require registration of secondhand goods<br>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [134, 139, 144]
+        },
+        {
+            "name": "MMSD Gets Fresh Food Grant",
+            "nid": 789,
+            "teaser": "<p>Elementary school students enjoy local, fresh produce while learning about healthy eating",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145]
+        },
+        {
+            "name": "Madison Commons Virtual Garden Show: Meadowood Community Garden fortifies southwest Madison neighborhood",
+            "nid": 955,
+            "teaser": "<p>&nbsp;Born from tragedy, Meadwood Community Garden holds the community together",
+            "locations": [
+            {
+                "index": 103,
+                "name": "Meadowood",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 141, 142, 144]
+        }
+        ]
+    },
+
+    {
+        "index": 110,
+        "name": "West",
+        "desc": "",
+        "count": 6,
+
+        "tags": {
+            "134": {
+                "index": 134,
+                "name": "City",
+                "desc": "",
+                "count": 1
+            },
+            "139": {
+                "index": 139,
+                "name": "Local Business",
+                "desc": "",
+                "count": 2
+            },
+            "144": {
+                "index": 144,
+                "name": "Safety",
+                "desc": "",
+                "count": 1
+            },
+            "145": {
+                "index": 145,
+                "name": "Education",
+                "desc": "",
+                "count": 2
+            },
+            "150": {
+                "index": 150,
+                "name": "Transportation",
+                "desc": "",
+                "count": 1
+            },
+            "182": {
+                "index": 182,
+                "name": "Food",
+                "desc": "food related topics, such as sustainable farming, environmental or health issues.",
+                "count": 3
+            }
+        },
+
+        "locations": {
+            "110": {
+                "index": 110,
+                "name": "West"
+            },
+            "111": {
+                "index": 111,
+                "name": "Appalachian Ridge NA"
+            },
+            "112": {
+                "index": 112,
+                "name": "Faircrest"
+            },
+            "113": {
+                "index": 113,
+                "name": "Glen Oak Hills"
+            },
+            "114": {
+                "index": 114,
+                "name": "Highlands"
+            },
+            "116": {
+                "index": 116,
+                "name": "Marbella"
+            },
+            "117": {
+                "index": 117,
+                "name": "Mendota Beach"
+            },
+            "118": {
+                "index": 118,
+                "name": "Midvale Heights"
+            },
+            "119": {
+                "index": 119,
+                "name": "Oakwood Village"
+            },
+            "120": {
+                "index": 120,
+                "name": "Old Middleton Greenway"
+            },
+            "121": {
+                "index": 121,
+                "name": "Parkwood Hills"
+            },
+            "122": {
+                "index": 122,
+                "name": "Parkwood Village"
+            },
+            "123": {
+                "index": 123,
+                "name": "Parkwood West"
+            },
+            "124": {
+                "index": 124,
+                "name": "Saukborough"
+            },
+            "125": {
+                "index": 125,
+                "name": "Skyview Terrace"
+            },
+            "126": {
+                "index": 126,
+                "name": "Spring Harbor"
+            },
+            "127": {
+                "index": 127,
+                "name": "Stonefield Woods-Ridge"
+            },
+            "128": {
+                "index": 128,
+                "name": "Summit Woods"
+            },
+            "129": {
+                "index": 129,
+                "name": "University Hill Farms"
+            },
+            "130": {
+                "index": 130,
+                "name": "Wisconsin Co-op Housing"
+            },
+            "131": {
+                "index": 131,
+                "name": "Woodland Hills"
+            },
+            "132": {
+                "index": 132,
+                "name": "Woodlands Hills Condominum"
+            },
+            "133": {
+                "index": 133,
+                "name": "Wyndemere Condominum"
+            }
+        },
+
+        "children": [
+
+        {
+            "name": "Get biking: safety, etiquette and fun tips",
+            "nid": 940,
+            "teaser": "<p>Ten simple rules for biking safely in Madison",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [150]
+        },
+        {
+            "name": "Local businesses object to proposed ordinance",
+            "nid": 917,
+            "teaser": "<p>The proposed ordinance would require registration of secondhand goods<br>",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [134, 139, 144]
+        },
+        {
+            "name": "Do you CHIP?",
+            "nid": 907,
+            "teaser": "<p>A unique fundraiser asks grocery shoppers to support local nonprofits&nbsp;",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            }
+            ],
+
+            "tags": [139]
+        },
+        {
+            "name": "MMSD Gets Fresh Food Grant",
+            "nid": 789,
+            "teaser": "<p>Elementary school students enjoy local, fresh produce while learning about healthy eating",
+            "locations": [
+            {
+                "index": 1,
+                "name": "East",
+                "desc": "the eastern neighborhoods."
+            },
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            },
+            {
+                "index": 16,
+                "name": "Far West",
+                "desc": "Far West neighborhoods."
+            },
+            {
+                "index": 31,
+                "name": "Isthmus",
+                "desc": ""
+            },
+            {
+                "index": 38,
+                "name": "Near East",
+                "desc": ""
+            },
+            {
+                "index": 52,
+                "name": "Near West",
+                "desc": ""
+            },
+            {
+                "index": 67,
+                "name": "North",
+                "desc": ""
+            },
+            {
+                "index": 85,
+                "name": "South Central",
+                "desc": ""
+            },
+            {
+                "index": 98,
+                "name": "Southwest",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145]
+        },
+        {
+            "name": "Metcalfe's Market invests in sustainable seafood, gains recognition",
+            "nid": 772,
+            "teaser": "<p>The locally-owned grocery store aims to educate consumers about the benefits of environmentally friendly seafood",
+            "locations": [
+            {
+                "index": 110,
+                "name": "West",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182]
+        },
+        {
+            "name": "Community Volunteers Grow School Gardens, Nurture Healthy Kids (Part 1/2)",
+            "nid": 625,
+            "teaser": "<p>When students at Midvale Elementary enter their schoolyard, they are greeted by a veritable fairytale. Delicate white moonflowers glow from the outer space garden patch. A beanstalk reaches into the sky above them. A sunflower hut beckons their imaginations. <br><br>But the children aren&#8217;t here to play. Carrying rulers, pencils and paper, they head for the math garden where they will track the growth of different plants&#8212;and maybe dally to pluck some fresh raspberries along the way. <br>",
+            "locations": [
+            {
+                "index": 118,
+                "name": "Midvale Heights",
+                "desc": ""
+            }
+            ],
+
+            "tags": [182, 145]
+        }
+        ]
+    }
+    ]
+}
