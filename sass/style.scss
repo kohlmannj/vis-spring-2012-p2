@@ -1,15 +1,7 @@
 @import "polymaps_style.css";
 
-@import "h5bp";
-@include h5bp-helpers;
-@include h5bp-chromeframe;
-@include h5bp-media;
 @import "compass/reset";
 @import "compass/css3";
-
-// header, footer {
-//     height: 5%;
-// }
 
 body {
     font: 16px "Helvetica Neue", Helvetica, Arial, "Bitstream Vera Sans", sans-serif;
@@ -18,10 +10,6 @@ body {
 body, #content, .map, svg {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-
-//header, footer {
-//    display: none;
-//}
 
 #content, .map {
     width: 100%;
@@ -104,8 +92,8 @@ circle#userLocation {
         font-weight: bold;
         margin-bottom: 8px;
         a {
+            text-decoration: none;
             color: inherit;
-            text-decoration: underline;
         }
         
         a[onclick] {

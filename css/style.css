@@ -1,143 +1,5 @@
 @import url(polymaps_style.css);
-/* line 7, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_helpers.scss */
-.ir {
-  display: block;
-  border: 0;
-  text-indent: -999em;
-  overflow: hidden;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  text-align: left;
-  direction: ltr;
-  *line-height: 0;
-}
-/* line 26, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_helpers.scss */
-.ir br {
-  display: none;
-}
-
-/* line 9, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_helpers.scss */
-.hidden {
-  display: none !important;
-  visibility: hidden;
-}
-
-/* line 11, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_helpers.scss */
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-/* line 45, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_helpers.scss */
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-}
-
-/* line 13, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_helpers.scss */
-.invisible {
-  visibility: hidden;
-}
-
-/* line 55, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_helpers.scss */
-.clearfix:before, .clearfix:after {
-  content: "";
-  display: table;
-}
-/* line 56, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_helpers.scss */
-.clearfix:after {
-  clear: both;
-}
-/* line 57, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_helpers.scss */
-.clearfix {
-  *zoom: 1;
-}
-
-/* line 6, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_chromeframe.scss */
-.chromeframe {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: black;
-  padding: 0.2em 0;
-}
-
-@media print {
-  /* line 11, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_media.scss */
-  * {
-    background: transparent !important;
-    color: black !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-    filter: none !important;
-    -ms-filter: none !important;
-  }
-
-  /* line 12, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_media.scss */
-  a, a:visited {
-    text-decoration: underline;
-  }
-
-  /* line 13, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_media.scss */
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-
-  /* line 14, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_media.scss */
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-
-  /* line 15, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_media.scss */
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
-    content: "";
-  }
-
-  /* line 16, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_media.scss */
-  pre, blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  /* line 17, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_media.scss */
-  thead {
-    display: table-header-group;
-  }
-
-  /* line 18, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_media.scss */
-  tr, img {
-    page-break-inside: avoid;
-  }
-
-  /* line 19, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_media.scss */
-  img {
-    max-width: 100% !important;
-  }
-
-  @page {
-    margin: 0.5cm;
-}
-
-  /* line 21, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_media.scss */
-  p, h2, h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  /* line 22, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets/h5bp/_media.scss */
-  h2, h3 {
-    page-break-after: avoid;
-  }
-}
-/* line 17, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_0.12/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -154,107 +16,107 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_0.12/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-body {
+/* line 22, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
   line-height: 1;
 }
 
-/* line 22, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_0.12/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_0.12/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_0.12/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_0.12/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_0.12/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_0.12/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_0.12/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 14, ../sass/style.scss */
+/* line 6, ../sass/style.scss */
 body {
   font: 16px "Helvetica Neue", Helvetica, Arial, "Bitstream Vera Sans", sans-serif;
 }
 
-/* line 18, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
 body, #content, .map, svg {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 26, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 #content, .map {
   width: 100%;
   height: 100%;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 circle {
   stroke-width: 2px;
 }
 
-/* line 36, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 circle.node {
   cursor: pointer;
 }
 
-/* line 40, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 circle#userLocation {
   stroke-width: 4px;
   stroke: #00aaff;
   fill: none;
 }
 
-/* line 46, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .layer path {
   fill: none;
   stroke: #1f77b4;
   stroke-width: 2px;
 }
 
-/* line 52, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .layer path.Polygon {
   fill: #ff0000;
   stroke-width: 0;
   opacity: 0.35;
 }
 
-/* line 58, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .layer path.Polygon:hover {
   opacity: 0.5;
 }
 
-/* line 62, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 #popover {
   background: #333;
   border: 2px solid;
@@ -270,17 +132,14 @@ circle#userLocation {
   opacity: 0;
   -webkit-transition-property: opacity, background, border-color, color;
   -moz-transition-property: opacity, background, border-color, color;
-  -ms-transition-property: opacity, background, border-color, color;
   -o-transition-property: opacity, background, border-color, color;
   transition-property: opacity background border-color color;
   -webkit-transition-duration: 0.25s;
   -moz-transition-duration: 0.25s;
-  -ms-transition-duration: 0.25s;
   -o-transition-duration: 0.25s;
   transition-duration: 0.25s;
   -webkit-transition-timing-function: ease-in-out;
   -moz-transition-timing-function: ease-in-out;
-  -ms-transition-timing-function: ease-in-out;
   -o-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
   -webkit-border-radius: 4px;
@@ -295,7 +154,7 @@ circle#userLocation {
   line-height: 18px;
   overflow: hidden;
 }
-/* line 84, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 #popover #closePopover {
   position: absolute;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.35);
@@ -318,28 +177,28 @@ circle#userLocation {
   border-radius: 4px;
   display: none;
 }
-/* line 103, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 #popover h2 {
   font-weight: bold;
   margin-bottom: 8px;
 }
-/* line 106, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 #popover h2 a {
+  text-decoration: none;
   color: inherit;
-  text-decoration: underline;
 }
-/* line 111, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 #popover h2 a[onclick] {
   cursor: pointer;
 }
-/* line 116, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 #popover #popoverContent {
   font-size: 14px;
   line-height: 16px;
   height: 64px;
   overflow: hidden;
 }
-/* line 123, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 #popover #popoverTags, #popover #popoverLocations {
   background: inherit;
   max-height: 52px;
@@ -351,7 +210,7 @@ circle#userLocation {
   float: left;
   overflow: hidden;
 }
-/* line 133, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 #popover #popoverTags a, #popover #popoverLocations a {
   text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.35);
   color: #eee;
@@ -374,21 +233,19 @@ circle#userLocation {
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.35) 100%);
   background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.35) 100%);
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.35) 100%);
-  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.35) 100%);
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.35) 100%);
   background-color: #ccc;
   text-decoration: none;
 }
-/* line 151, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 #popover #popoverTags a:hover, #popover #popoverLocations a:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.25)), color-stop(100%, rgba(0, 0, 0, 0.5)));
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
-/* line 155, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 #popover #popoverTags a span.name, #popover #popoverLocations a span.name {
   white-space: nowrap;
   overflow: hidden;
@@ -397,7 +254,7 @@ circle#userLocation {
   max-width: 90px;
   text-align: left;
 }
-/* line 164, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 #popover #popoverTags a span.count, #popover #popoverLocations a span.count {
   text-align: right;
   width: 12px;
@@ -405,22 +262,22 @@ circle#userLocation {
   float: right;
   margin-left: 4px;
 }
-/* line 174, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 #popover #popoverLocations {
   left: auto;
   right: 8px;
 }
-/* line 178, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 #popover #popoverLocations a span.name {
   max-width: 112px;
 }
 
-/* line 184, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 #popover.shown {
   opacity: 1;
 }
 
-/* line 188, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 #popover.huge {
   opacity: 1;
   width: auto;
@@ -441,11 +298,11 @@ circle#userLocation {
   border-left: 0;
   border-right: 0;
 }
-/* line 205, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 #popover.huge #popoverTags a span.name, #popover.huge #popoverLocations a span.name {
   max-width: 100%;
 }
-/* line 210, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 #popover.huge h2 {
   line-height: 30px;
   text-align: center;
@@ -455,7 +312,7 @@ circle#userLocation {
   top: 8px;
   margin: auto;
 }
-/* line 220, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 #popover.huge #iframeContainer {
   position: absolute;
   left: 0;
@@ -465,34 +322,34 @@ circle#userLocation {
   margin: auto;
   outline: 1px solid rgba(0, 0, 0, 0.5);
 }
-/* line 228, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 #popover.huge #iframeContainer iframe {
   width: 100%;
   height: 100%;
   background: #fff;
 }
-/* line 235, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 #popover.huge #closePopover {
   display: block;
 }
 
-/* line 242, ../sass/style.scss */
+/* line 230, ../sass/style.scss */
 footer #showCredits, footer img {
   position: absolute;
   left: 8px;
   bottom: 8px;
   z-index: 2;
 }
-/* line 248, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 footer img {
   height: 48px;
   width: 263px;
   opacity: 0.65;
   cursor: pointer;
 }
-/* line 254, ../sass/style.scss */
+/* line 242, ../sass/style.scss */
 footer #showCredits {
-  background: url('../img/help.png?1336980389') no-repeat center;
+  background: url('../img/help.png?1411940803') no-repeat center;
   text-indent: -9999px;
   float: right;
   width: 48px;
