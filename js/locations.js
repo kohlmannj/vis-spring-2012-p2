@@ -1,6 +1,6 @@
-d3.xml("data/?src=locations&by=kml", function(xmlResult) {
+d3.xml("data/data.kml", function(xmlResult) {
     
-    d3.json("data/?src=stories&by=location&as=json", function(json) {
+    d3.json("data/stories_by_location.json", function(json) {
         // console.log(json);
         var layer = d3.select("#content svg")
             .insert("svg:g", ".compass")

@@ -11,10 +11,15 @@ var map = po.map()
 
 // Add the CloudMade image tiles as a base layer
 map.add(po.image()
-    .url(po.url("http://{S}tiles.mapbox.com/v3/kohlmannj.jkh193a5/"
-    /* + "/c36eb13cd9ed4855af9ae010a968c1a7" // http://cloudmade.com/register
-    + "/33481" + ( (window.devicePixelRatio && window.devicePixelRatio == 2) ? "@2x" : "" ) + "/256/" */ + "{Z}/{X}/{Y}.png")
-    .hosts(["a.", "b.", "c.", ""]))
+    .url(po.url(
+        "http://api.tiles.mapbox.com/v4/kohlmannj.jkh193a5/"
+        // http://api.tiles.mapbox.com/v4/{mapid}/{z}/{x}/{y}.{format}?access_token=<your access token>
+        /* + "/c36eb13cd9ed4855af9ae010a968c1a7" // http://cloudmade.com/register
+        + "/33481" + ( (window.devicePixelRatio && window.devicePixelRatio == 2) ? "@2x" : "" ) + "/256/" */
+        + "{Z}/{X}/{Y}" + ( (window.devicePixelRatio && window.devicePixelRatio == 2) ? "@2x" : "" ) + ".png"
+        + "?access_token=pk.eyJ1Ijoia29obG1hbm5qIiwiYSI6IjFLXzNGNDgifQ.ezgEOqg3DxnwZYNOD8GcFQ"
+    )
+    .hosts([""]))
     .zoom(function(z) {
         var dz = Math.log(window.devicePixelRatio || 1) / Math.LN2;
         return z + dz;
