@@ -7,3 +7,5 @@ All rights reserved.
 Browser Requirements: Chrome v. 1,000,000 (/sarcasm), Safari 5.1, Firefox 12
 
 Please see credits.html for a list of instructions and acknowledgements.
+
+See also: [the final report for the project](https://kohlmannj.github.io/vis-spring-2012-p2/img/kohlmann_vis-p2-final.pdf).
